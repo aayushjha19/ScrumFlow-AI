@@ -1,0 +1,2244 @@
+{
+  "conversation": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 0.045,
+      "end_time": 0.245,
+      "text": "Hello."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 1.085,
+      "end_time": 2.425,
+      "text": "So, ek second."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 2.905,
+      "end_time": 3.405,
+      "text": "So,"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 8.325,
+      "end_time": 10.485,
+      "text": "hello everyone, my name is manish sharma."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 10.745,
+      "end_time": 11.245,
+      "text": "Baaki sab mein introduce kar lo apne sab."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 15.285,
+      "end_time": 16.045,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 18.185,
+      "end_time": 20.745,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 23.905,
+      "end_time": 24.985,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 27.545,
+      "end_time": 29.645,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 31.465,
+      "end_time": 34.165,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 35.545,
+      "end_time": 37.185,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 40.005,
+      "end_time": 41.445,
+      "text": "I am aadity."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Ansh",
+      "start_time": 42.965,
+      "end_time": 44.465,
+      "text": "Hello, I am ansh."
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 46.565,
+      "end_time": 47.705,
+      "text": "Hello, I am with aayush."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 48.905,
+      "end_time": 49.825,
+      "text": "So let's start the meeting"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 50.305,
+      "end_time": 54.785,
+      "text": "ki bhai apan ko video kaise banaani hai, thik hai? To basically abhi yah meeting poori record ho rahi"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 55.785,
+      "end_time": 56.385,
+      "text": "Through that extension"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 56.645,
+      "end_time": 58.225,
+      "text": "also record ho rahi hai"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 58.465,
+      "end_time": 64.565,
+      "text": "aur main externally bhi record kar raha hoon because vah meeting ka jo logo hai vah sab record ho raha hai, thik hai? Main tumhen vah bhej doonga."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 64.905,
+      "end_time": 68.945,
+      "text": "Harsh tere ko aur kya kya chaahie, kya matlab soch raha hai ki video mein aur kya kya daalega?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 69.885,
+      "end_time": 76.245,
+      "text": "Mainne jaise apna jo UI banaaya hai na tum logon ne, ek to uska interface aa jaega, uski jo video record tum karke doge ki yah work kaise kar raha hai."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 78.665,
+      "end_time": 83.225,
+      "text": "Vah karke de denge aur jo captions hai na, vah vah us samay video bana doonga. Jaise toone jo kal video bheji thi na?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 83.625,
+      "end_time": 84.045,
+      "text": "Haan"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 83.985,
+      "end_time": 89.605,
+      "text": "haan."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 88.685,
+      "end_time": 89.105,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 90.105,
+      "end_time": 90.725,
+      "text": "Haan haan."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 90.225,
+      "end_time": 92.745,
+      "text": "Vaise lekin yaar tin minute ki bahut zyaada badi video jaegi. Itni badi video koi dekhega ya tin tin minute ki?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 93.045,
+      "end_time": 93.585,
+      "text": "Dekh tin maximum hai"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 93.585,
+      "end_time": 94.065,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 94.705,
+      "end_time": 96.325,
+      "text": "aur apne paas bataane ke lie bahut kuchh hai. Thik hai? To us hisaab se dekh chhoti kar sakte hain koi problem nahin hai."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 97.085,
+      "end_time": 98.905,
+      "text": "Recording hai. Thik hai? Iske pahle paanch second dikha denge jaise hamne introduction liya abhi."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 99.065,
+      "end_time": 99.725,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 99.425,
+      "end_time": 102.245,
+      "text": "Exact recording jo yah record kar rahe hain vah dikhaenge ham. Thik hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 103.005,
+      "end_time": 105.625,
+      "text": "And uske paanch second ke bhi apan ne introduction liya hai, toone last kar liya tha harsh. Thik hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 105.425,
+      "end_time": 108.405,
+      "text": "Ab uske baad cut scene aa jaega. Cut scene hone ke baad scrum flow ka ek poora tagline aa jaegi."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 108.525,
+      "end_time": 109.005,
+      "text": "Tagline matlab intro page aa jaega ek. Thik hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 110.805,
+      "end_time": 112.165,
+      "text": "Vah ek aur log vahi kya? Logon ko abhi kuchh nahin hai. Vah pahle nahin"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 111.605,
+      "end_time": 111.885,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 112.525,
+      "end_time": 115.465,
+      "text": "Mere khyaal se pahle ek meeting ka vah daal de. Starting mein daal doonga ek baar logon se starting ho jaegi."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 115.765,
+      "end_time": 124.625,
+      "text": "Animation daal doonga usmen. Phir apni jo bhi aaega vah aa jaega. Phir vaapas log aa jaega, introduction aa jaega apna."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 116.625,
+      "end_time": 116.865,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 125.305,
+      "end_time": 127.805,
+      "text": "Nahin, jo open hai add usmen show ki thi mainne the vo kal."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 127.005,
+      "end_time": 127.405,
+      "text": "Haan."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 128.125,
+      "end_time": 128.565,
+      "text": "Us hisaab se aate hai se vahi baat boli ki starting mein scrum through dot AI, thik hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 129.165,
+      "end_time": 135.365,
+      "text": "Uske logo se start ho. Thik hai. To aisa karte hain. Pahle logo aa jaega. Logon aur ek tagline aa jaegi apni, thik hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 135.625,
+      "end_time": 136.025,
+      "text": "Aur usko phir fan out kar lenge apan aur usse phir meeting mein enter ho jaenge, thik hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 136.525,
+      "end_time": 136.925,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 137.005,
+      "end_time": 139.445,
+      "text": "Ki meeting ka ek page aa gaya. Then us meeting ko introduction se rok ke matlab introduction par rok ke"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 139.725,
+      "end_time": 142.825,
+      "text": "matlab voice over chal raha hai meeting ki thodi bahut voice chal rahi hai aur baaki blank ho raha hai dhire dhire, aisa karenge and then what we will do is"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 143.345,
+      "end_time": 145.365,
+      "text": "ki is background mein matlab Vah kar denge, run kar denge."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 143.785,
+      "end_time": 144.205,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 145.705,
+      "end_time": 146.525,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 145.885,
+      "end_time": 147.145,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 147.365,
+      "end_time": 147.965,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 147.625,
+      "end_time": 149.065,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 149.065,
+      "end_time": 149.905,
+      "text": "Jo to background music kya rakhenge?"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 149.905,
+      "end_time": 150.445,
+      "text": "Background music vagairah dekh lenge koi bhi generic sa rakh len aur jo chalega na"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 149.925,
+      "end_time": 150.265,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 152.285,
+      "end_time": 154.665,
+      "text": "ya to background mein meeting hi run karte rahe thodi si jaise ki paanch second ka intro hamne dikha diya but background mein meeting chal rahi hai, voice meeting ki chal rahi hai but background mein jo screen hai."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 155.645,
+      "end_time": 159.845,
+      "text": "Blur ho jaegi halki si."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 155.845,
+      "end_time": 157.385,
+      "text": "Haan haan blur ho jaegi."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 157.545,
+      "end_time": 158.025,
+      "text": "Text aa jaega. And saamne text aa jaega vah transcription ka text hoga."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 160.065,
+      "end_time": 164.405,
+      "text": "Vah jo ek animation hota hai na jaygaan jahaan par oopar ek mic jaisa hota hai aur dialogue box mein vah streaming mein text aate rahta hai vaisa kuchh banega thoda badhiya."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 165.165,
+      "end_time": 165.825,
+      "text": "Haan haan haan. Exactly ki bhai yah caption jaise caption hi chalte rahta hai na jaise bol raha hai vaise vaise chal rahe hain."
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 165.325,
+      "end_time": 167.925,
+      "text": "To main transcription tere ko bhej doonga too kaise bhi jugaad karke use tin chaar usmen divide kar lie hoge. Chaar box van rakhe usmen sabke apne apne transcription chal rahe hain. Thik hai? Main to ismen video mein."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 168.045,
+      "end_time": 168.465,
+      "text": "Assets kaise hai matlab? Video background kya hoga? Video ke text ka vah kya hoga? Vah achchha hona chaahie na? Tabhi to video chaliega."
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 168.325,
+      "end_time": 172.565,
+      "text": "Haan haan haan. Main yah soch raha tha ki apni website blue theme ki hai. To blue theme hi rakhana hai matlab."
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 172.945,
+      "end_time": 174.105,
+      "text": "Blue? Haan."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 174.585,
+      "end_time": 175.205,
+      "text": "Main main tumko ek telegram par mere paas padha hai. Assets agar motion backgrounds main tumhen bech deta hoon. Jo achchha lag gaya vah bata den, main vah use kar loonga."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 175.765,
+      "end_time": 176.625,
+      "text": "Thik hai, done hai. Then apna jaise ki transcription hamne dikha diya. nan"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 176.725,
+      "end_time": 177.485,
+      "text": "Ek screen par chaar block hai aur chaaron mein alag alag page chal rahe hain sir. Nahin, matlab jaise ki ek matlab triple icon daba ke ek meeting mein triple icon daba ke uska vah khul raha hai na, kya kahte hain? Transcription khul raha hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 177.625,
+      "end_time": 178.385,
+      "text": "To vah transcription ka jo ek box bankar aaega, vah abhi hover kar raha hai, thik hai? Background mein aise hi meeting ka vah page chal raha hai, vah hover ho raha. Phir then vah meeting ka vah hover hokar aa raha hai and then vah screen par lag raha hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 178.905,
+      "end_time": 182.625,
+      "text": "Aise karke poori website build hogi aur phir website ko ham normal aisa show kar denge ki haan bhai yah website hai hamaari. Kind of website ko animate karna hai hamen video ke lie. Actual mein to animated website hai nahin video ke lie animate kar rahe hain."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 183.025,
+      "end_time": 187.105,
+      "text": "Harsh yah bata."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 187.445,
+      "end_time": 189.265,
+      "text": "Haan."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 189.665,
+      "end_time": 200.225,
+      "text": "Jo jo cuts and clips hai vah sahi se honi chaahie. Jaata hai animation to kar nahin sakta kyonki vah after effect mein hote hain. Haan. Vah itni mujhe aati nahin hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 200.665,
+      "end_time": 201.405,
+      "text": "Haan, thik hai. To animation to apan kami rakhenge baaki jo transaction vagairah hai, animation jo main kar sakta hoon vah main kar doonga. Thik hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 201.725,
+      "end_time": 206.445,
+      "text": "Main tirko yah idea bata diya hai. Iska thoda bahut implementation bhi kar dena. Matlab kuchh bhi small se small ke bhaiya kuchh hava na kar sake to kuchh ek ek aisa aata hai kya? Main ek specific area ko bold out kar do matlab oopar le aao."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 206.865,
+      "end_time": 212.205,
+      "text": "Haan, hota hai vo hota hai na? To website के specific areas ko ham light up kar denge kind of aisa. Highlight hi bol rahe hain na? Haan, highlight highlight, right."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 213.145,
+      "end_time": 214.045,
+      "text": "Ki ek video mein meeting ke apne website ki har ek chiz ko highlight karke dikhaenge ki ek transcription highlight ho gai, then apna analytics highlight ho gaya, then matlab multiple chizen hai vo Ho jaegi."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 213.285,
+      "end_time": 214.885,
+      "text": "Aur haan, yah pata hai overlay mein daal ke use us particular area ko highlight karke bas usmen add kar doonga."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 215.345,
+      "end_time": 216.805,
+      "text": "Haan, exactly done. Thik hai? To yah apan end ki taraph aa gae. Itne mein mere khyaal se dedh se do minute khatm ho jaenge. Kya lagta hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 216.905,
+      "end_time": 218.685,
+      "text": "Achchha. Ho paega?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 219.065,
+      "end_time": 223.485,
+      "text": "Meeting se sidha usmen aa gaya website par. Haan. Beach mein jo bhi chal raha hai vah kuchh nahin dikha raha. Beach mein kya? Ismen phir vah last mein dikhaenge ki do minute ho gae. Last ka ek minute bach raha hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 223.965,
+      "end_time": 227.185,
+      "text": "Thik hai? In sab mein do, dedh minute ho gaya. Last ke jo dedh ya ek minute le len, usmen apan samajha denge ki bhai now we have used matlab sabke logos vagairah laga die, how we are using vah jo architecture hai jo mainne tere ko bheja tha aadity, ki pahle pahle ek EC2 machine chal rahi hai, phir doosri EC2, phir tisri EC2 machine chal rahi hai."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 225.605,
+      "end_time": 225.805,
+      "text": "Eraser dot us par ek mind map, flow chart haan, flow chart bana doonga. Usko bhi agar if possible animate kar diya nahin to simply daal diyo. Thik hai? Aur logos daal dena. AWS aur un sabke RDS, EC2."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 227.545,
+      "end_time": 230.585,
+      "text": "Iska logo banaoo to bana lo ek baar, easy ho jaega. Scram flow ka logo bana lenge ham, vah bhi dekhate hain. Vah bhi banaana hai actually."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 230.845,
+      "end_time": 233.145,
+      "text": "Logo to van jaega. Van jaega. Main baat main main banaoon kya?"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 232.045,
+      "end_time": 234.065,
+      "text": "Bana de agar haan tera vah snips vaala badhiya lag raha hai bhai. Thik hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 233.665,
+      "end_time": 235.185,
+      "text": "So, thik hai sir last mainne dekh, mainne dekh ek baar group par link bheji telegram ki. Us par bahut saare motion background, blue jo bhi chaahie vah jo achchha lag gaya na? Haan. Vah mujhe bataana. Thik hai, main dekhakar bata doonga. Around 10 minutes ki yah recording hai. Thik hai? Abhi."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 234.185,
+      "end_time": 235.605,
+      "text": "Ab dekhate hain ki yah 10 minutes ko ham transcribe kaise karte hain?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 235.705,
+      "end_time": 238.585,
+      "text": "Haan, isko karke dekh kaisa ho rahe hai transcribe. Thik hai? Main batches mein transcribe karke vah thoda edit karke kar loonga and then iska transcription bhi tumhen bhej doonga harsh ko bhej doonga matlab. Thik hai? Transcription ho गया, yah recording hai vah ho gai aur website ka jo bhi hoga main vah bhej doonga."
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 239.205,
+      "end_time": 248.565,
+      "text": "Yah Aadity too vah bhej diyo. Thik hai? Website mein kya ki bhejoon?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 239.385,
+      "end_time": 239.765,
+      "text": "Website mein jaise main transcription nikaaloonga na, to us transcription ke hisaab se aur yah meeting ka ek vah bana diyo ki is date ko yah meeting hui thi vah calendar par jaise. Thik hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 248.585,
+      "end_time": 249.545,
+      "text": "Vah bana diyo aur usmen jo aapne mock data jo rakha hai na, usko isse vah kar diyo, change kar diyo. Thik hai? Aisa kar diyo aur website"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 249.905,
+      "end_time": 254.145,
+      "text": "So, 10 minute mark kar mera ho chuka hai aur sab discuss ho chuka hai mere khyaal se, thik hai? Ok, done karte hain sabko apna samajh mein to aai gaya hoga. Baaki transcription hai hi, apna kaam hi hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 254.425,
+      "end_time": 257.505,
+      "text": "Agar agar aur bhi tumhaare YouTube par koi videos ho na ki aisi van sakti hai. Thik hai. Vaise bhejta hai na mujhe. Examples bhejta hai na mujhe. Idea ke lie haan."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 257.845,
+      "end_time": 259.385,
+      "text": "Iska pahla draft, pahla draft aa jae tak van jaega Kya? Iska pahla draft video ka."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 259.525,
+      "end_time": 262.865,
+      "text": "Haan, main bana doonga agar saare sets agar tum abhi bhej do to main abhi ek do do tin ghante to minimum lagenge lagenge mujhe. Dekha abhi time kya ho raha hai baarah baj rahe hain main tere ko do baje tak sab bhej doonga."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 263.025,
+      "end_time": 265.145,
+      "text": "Haan, phir main paanch chhah baje tak tumko bhej doonga. Thik hai. Chalo. Haan, kyonki minimum tin se chaar ghante to lagenge lagenge, samajhane mein lag denge sach boloon to. Thik hai thik hai. To chalo thik hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 265.885,
+      "end_time": 266.345,
+      "text": "Article ki baat rahi to article vaala bhi saamaan main abhi karta hoon, bechata hoon sab kuchh. Sab ek baari collect karte hoon main. Main collect kar liya almost sab haan. Jitne bhi vahi chat thi vah mainne collect kar liya. Thik hai."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 266.985,
+      "end_time": 269.645,
+      "text": "Uske alaava tere paas kuchh aur hai to pata."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 270.645,
+      "end_time": 271.965,
+      "text": "Dekh mere paas ek to vah PRD vagairah hai un sab mein garbage data bahut zyaada hai. To main kaam hai mera ki un sabko segregate karo. Abhi tere paas jitna data hai na. Uska ek shot mere ko bata de ki kitna hai tere paas?"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 272.425,
+      "end_time": 278.345,
+      "text": "Dekh, mere paas jo hai na vah apni jo conversation hai na usmen meet minds mein. Haan haan. Mere paas vah hai. Thik hai? To uska mainne ek collect kiya hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 278.145,
+      "end_time": 279.125,
+      "text": "Haan vahi vah collection bata di because us poore chat vagairah mein bahut saara garbage data hai."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 279.545,
+      "end_time": 283.905,
+      "text": "Tere ko mil jaegi meet minds mein check kar ek latest conversation hogi. Ki saari conversations ka ek dog daal diya bas. Thik hai thik hai."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 283.765,
+      "end_time": 284.225,
+      "text": "Main main tere ko ek extra aur pesh doonga. Is par bhi player karne ke lie. Center vaala."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 284.725,
+      "end_time": 285.105,
+      "text": "To let's conclude, khatm karte hain is meeting mein. Thik hai?"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 285.305,
+      "end_time": 289.425,
+      "text": "Haan, zyaada rang ho jaegi to banegi bhi nahin."
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 289.965,
+      "end_time": 294.565,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 294.865,
+      "end_time": 295.785,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 296.145,
+      "end_time": 299.405,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 299.645,
+      "end_time": 300.125,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 300.385,
+      "end_time": 305.605,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 305.985,
+      "end_time": 308.445,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 308.905,
+      "end_time": 312.345,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 312.705,
+      "end_time": 314.845,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 315.225,
+      "end_time": 318.445,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 318.865,
+      "end_time": 323.025,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 323.685,
+      "end_time": 326.525,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 328.285,
+      "end_time": 329.025,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 329.805,
+      "end_time": 333.825,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 334.445,
+      "end_time": 336.705,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 337.165,
+      "end_time": 342.985,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 343.245,
+      "end_time": 344.425,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 344.885,
+      "end_time": 345.285,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 345.765,
+      "end_time": 348.645,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 349.285,
+      "end_time": 351.365,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 351.685,
+      "end_time": 358.205,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 358.665,
+      "end_time": 361.585,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 362.165,
+      "end_time": 366.885,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 367.865,
+      "end_time": 373.505,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 368.365,
+      "end_time": 368.625,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 375.765,
+      "end_time": 376.705,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 375.845,
+      "end_time": 378.625,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 378.585,
+      "end_time": 379.025,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 379.025,
+      "end_time": 384.485,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 384.645,
+      "end_time": 390.365,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 390.685,
+      "end_time": 396.065,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 394.185,
+      "end_time": 394.805,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 396.225,
+      "end_time": 396.985,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 397.285,
+      "end_time": 399.885,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 400.245,
+      "end_time": 403.485,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 402.765,
+      "end_time": 403.285,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 403.845,
+      "end_time": 405.465,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 406.205,
+      "end_time": 409.005,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 409.325,
+      "end_time": 413.145,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 414.045,
+      "end_time": 423.985,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 423.965,
+      "end_time": 425.425,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 424.085,
+      "end_time": 424.765,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 425.745,
+      "end_time": 426.445,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 425.785,
+      "end_time": 430.005,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 427.465,
+      "end_time": 427.605,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 430.185,
+      "end_time": 431.805,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 433.845,
+      "end_time": 435.285,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 434.945,
+      "end_time": 436.445,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 437.005,
+      "end_time": 440.385,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 437.405,
+      "end_time": 438.545,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 440.465,
+      "end_time": 445.225,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 445.605,
+      "end_time": 450.565,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 451.525,
+      "end_time": 452.005,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 451.725,
+      "end_time": 457.185,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 457.425,
+      "end_time": 458.925,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 460.845,
+      "end_time": 464.665,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 465.085,
+      "end_time": 466.645,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 468.905,
+      "end_time": 469.565,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 469.745,
+      "end_time": 470.185,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 471.345,
+      "end_time": 471.865,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 471.925,
+      "end_time": 475.525,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 475.625,
+      "end_time": 476.105,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 476.385,
+      "end_time": 478.625,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 479.005,
+      "end_time": 481.485,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 481.845,
+      "end_time": 484.305,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 485.225,
+      "end_time": 485.605,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 485.525,
+      "end_time": 485.905,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 486.165,
+      "end_time": 488.145,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 488.465,
+      "end_time": 491.265,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 491.645,
+      "end_time": 496.965,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 497.205,
+      "end_time": 506.525,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 507.425,
+      "end_time": 511.205,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 511.865,
+      "end_time": 515.785,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 513.025,
+      "end_time": 513.425,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 513.425,
+      "end_time": 513.805,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 513.805,
+      "end_time": 513.825,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 514.265,
+      "end_time": 514.425,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 516.305,
+      "end_time": 520.005,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 520.685,
+      "end_time": 521.045,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 521.105,
+      "end_time": 522.685,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 524.365,
+      "end_time": 526.485,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 527.025,
+      "end_time": 528.005,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 527.465,
+      "end_time": 530.465,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 531.365,
+      "end_time": 533.225,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 533.445,
+      "end_time": 535.745,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 537.505,
+      "end_time": 538.285,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 537.905,
+      "end_time": 538.905,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 539.245,
+      "end_time": 540.725,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 541.485,
+      "end_time": 542.805,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 542.125,
+      "end_time": 543.645,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 544.185,
+      "end_time": 546.805,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 548.365,
+      "end_time": 548.705,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 550.245,
+      "end_time": 551.065,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 552.805,
+      "end_time": 554.225,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 553.545,
+      "end_time": 554.065,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 554.485,
+      "end_time": 554.885,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 555.825,
+      "end_time": 559.045,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 559.545,
+      "end_time": 563.645,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 559.565,
+      "end_time": 559.885,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 564.005,
+      "end_time": 564.385,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 564.625,
+      "end_time": 565.405,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 565.765,
+      "end_time": 567.265,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 568.225,
+      "end_time": 568.925,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 569.585,
+      "end_time": 570.185,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 570.745,
+      "end_time": 571.345,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 571.545,
+      "end_time": 572.985,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 573.285,
+      "end_time": 574.345,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 575.065,
+      "end_time": 577.965,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 575.125,
+      "end_time": 575.225,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 578.465,
+      "end_time": 580.545,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 578.645,
+      "end_time": 579.245,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 580.865,
+      "end_time": 584.725,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 585.145,
+      "end_time": 588.925,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 589.385,
+      "end_time": 589.665,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 589.445,
+      "end_time": 589.865,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 591.185,
+      "end_time": 592.425,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 592.785,
+      "end_time": 593.605,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 593.805,
+      "end_time": 595.765,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 596.305,
+      "end_time": 601.805,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 602.645,
+      "end_time": 603.005,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 602.925,
+      "end_time": 604.085,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 604.725,
+      "end_time": 607.045,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 607.565,
+      "end_time": 607.965,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 608.425,
+      "end_time": 615.525,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 615.945,
+      "end_time": 616.525,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 616.545,
+      "end_time": 617.005,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 617.285,
+      "end_time": 623.125,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 621.285,
+      "end_time": 621.485,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 623.765,
+      "end_time": 624.045,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 624.545,
+      "end_time": 624.925,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 625.345,
+      "end_time": 626.945,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 627.585,
+      "end_time": 627.905,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 628.565,
+      "end_time": 628.905,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 629.525,
+      "end_time": 631.945,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 632.685,
+      "end_time": 634.985,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 635.585,
+      "end_time": 635.945,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 636.765,
+      "end_time": 642.645,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 643.745,
+      "end_time": 644.385,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 644.465,
+      "end_time": 647.105,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 647.325,
+      "end_time": 650.025,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 651.425,
+      "end_time": 651.925,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 651.605,
+      "end_time": 652.725,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 653.105,
+      "end_time": 654.445,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 653.845,
+      "end_time": 655.525,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 655.725,
+      "end_time": 556.905,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 656.025,
+      "end_time": 659.365,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 662.665,
+      "end_time": 663.025,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 663.545,
+      "end_time": 665.905,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 666.545,
+      "end_time": 670.305,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 670.525,
+      "end_time": 673.625,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 673.785,
+      "end_time": 674.865,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 674.145,
+      "end_time": 674.665,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 675.385,
+      "end_time": 677.745,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 678.605,
+      "end_time": 681.785,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 682.265,
+      "end_time": 682.645,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 683.085,
+      "end_time": 683.585,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 683.885,
+      "end_time": 688.485,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 686.965,
+      "end_time": 687.625,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 688.505,
+      "end_time": 689.245,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 691.285,
+      "end_time": 696.945,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 697.205,
+      "end_time": 698.265,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 698.985,
+      "end_time": 700.585,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 701.125,
+      "end_time": 701.765,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 702.005,
+      "end_time": 703.825,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 704.085,
+      "end_time": 705.265,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 704.405,
+      "end_time": 704.765,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 705.505,
+      "end_time": 708.845,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 705.645,
+      "end_time": 706.225,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 707.745,
+      "end_time": 707.785,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 709.945,
+      "end_time": 714.565,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 714.885,
+      "end_time": 719.725,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 720.785,
+      "end_time": 724.325,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 725.005,
+      "end_time": 727.205,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 727.645,
+      "end_time": 730.545,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 730.605,
+      "end_time": 731.105,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 731.525,
+      "end_time": 732.405,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 732.565,
+      "end_time": 735.265,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 736.125,
+      "end_time": 740.945,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 736.265,
+      "end_time": 736.865,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 741.625,
+      "end_time": 742.065,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 741.665,
+      "end_time": 743.145,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 743.405,
+      "end_time": 747.145,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 743.505,
+      "end_time": 744.065,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 747.705,
+      "end_time": 748.105,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 747.905,
+      "end_time": 750.445,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 751.245,
+      "end_time": 752.225,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 752.225,
+      "end_time": 753.225,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 753.465,
+      "end_time": 756.065,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 753.825,
+      "end_time": 754.245,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 754.245,
+      "end_time": 754.265,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 756.385,
+      "end_time": 757.165,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 756.685,
+      "end_time": 759.645,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 759.165,
+      "end_time": 759.785,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 760.145,
+      "end_time": 760.865,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 761.525,
+      "end_time": 761.545,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 761.545,
+      "end_time": 762.205,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 761.565,
+      "end_time": 762.145,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 762.205,
+      "end_time": 762.525,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 763.145,
+      "end_time": 769.905,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 770.245,
+      "end_time": 776.685,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 770.445,
+      "end_time": 771.745,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 777.745,
+      "end_time": 778.565,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 778.865,
+      "end_time": 780.785,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 781.145,
+      "end_time": 782.105,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 784.025,
+      "end_time": 786.145,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 787.185,
+      "end_time": 788.745,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 788.885,
+      "end_time": 791.305,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaker_label": "Manish Sharma",
+      "start_time": 791.285,
+      "end_time": 792.045,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 791.305,
+      "end_time": 791.405,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaker_label": "Harsh",
+      "start_time": 791.405,
+      "end_time": 791.905,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 791.905,
+      "end_time": 792.025,
+      "text": ""
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaker_label": "Aadity",
+      "start_time": 793.365,
+      "end_time": 793.625,
+      "text": ""
+    }
+  ]
+}

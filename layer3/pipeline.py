@@ -30,6 +30,11 @@ from agents import (
     load_transcript,
     run_layer3,
     run_task_agent,
+    print_banner,
+    print_phase,
+    print_info,
+    print_summary,
+    C, _w,
 )
 from post_processor import run_post_processor
 
@@ -40,24 +45,28 @@ def run_full_pipeline(
     verbose: bool = True,
 ) -> dict:
 
-    # ── Load transcript ─────────────────────────────────────────────────────
+    if verbose:
+        print_banner()
+
+    # ── Load transcript ──────────────────────────────────────────────────────
     utterances = load_transcript(input_path)
     if verbose:
-        print(f"Loaded {len(utterances)} utterances from {input_path}")
+        print_info("Input file",     str(input_path))
+        print_info("Raw utterances", str(len(utterances)))
 
-    # ── Layer 3: 3 agents in parallel ───────────────────────────────────────
+    # ── Layer 3: 3 agents in parallel ────────────────────────────────────────
     if verbose:
-        print("\n[Phase 1] Running Layer 3 understanding agents...")
+        print_phase(1, "Understanding Layer", "Discourse + Commitment + Risk  [parallel]")
     layer3_output = run_layer3(utterances, verbose=verbose)
 
-    # ── Layer 3.5: Task Generator (sequential, uses L3 output) ──────────────
+    # ── Layer 3.5: Task Generator (sequential, uses L3 output) ───────────────
     if verbose:
-        print("\n[Phase 2] Running Task Generator agent...")
+        print_phase(2, "Task Generator", "Uses Layer 3 output  [sequential]")
     task_output = run_task_agent(layer3_output, verbose=verbose)
 
-    # ── Post-Processor: pure Python computations ─────────────────────────────
+    # ── Post-Processor: pure Python computations ──────────────────────────────
     if verbose:
-        print("\n[Phase 3] Running post-processor (meeting metrics + allocation scoring)...")
+        print_phase(3, "Post-Processor", "Metrics + allocation scoring  [pure Python]")
 
     aaes_output = run_post_processor(
         utterances=utterances,
@@ -73,19 +82,8 @@ def run_full_pipeline(
 
 
 def _print_pipeline_summary(output: dict) -> None:
-    print(f"\n{'='*60}")
-    print("  AAES Pipeline Summary")
-    print(f"{'='*60}")
-
-    meta = output.get("meeting_metadata", {})
-    print(f"\n  Meeting Metrics:")
-    print(f"    Duration          : {meta.get('duration_minutes', 0):.1f} min")
-    print(f"    Decisions made    : {meta.get('decision_count', 0)}")
-    print(f"    Decision density  : {meta.get('decision_density', 0):.3f} decisions/min")
-    print(f"    Tasks created     : {meta.get('task_creation_count', 0)}")
-
-
-
+    # Delegate to the rich terminal UI function in agents.py
+    print_summary(output)
 
 def main():
     parser = argparse.ArgumentParser(

@@ -1,0 +1,368 @@
+{
+    "conversation": [
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 8.3,
+            "end_time": 14.0,
+            "text": "Hello everyone,I am Mayank Sharma"
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 15.0,
+            "end_time": 18.5,
+            "text": "Hi,I am Aadity"
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 19.0,
+            "end_time": 22.0,
+            "text": "Hello, I am Harsh"
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 23.0,
+            "end_time": 36.0,
+            "text": "Okay chalte hain. Aaj ki meeting ka main agenda yeh hai ki hamari ScrumFlow.ai demo video ka structure finalize karna hai. Video maximum teen minute ki honi chahiye, product achha dikhna chahiye, aur Friday ki submission deadline se pehle ready honi chahiye. Harsh, tere paas abhi kitna bandwidth hai is kaam ke liye?"
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 37.0,
+            "end_time": 50.0,
+            "text": "Main le sakta hoon yeh kaam. Lekin yaar, mujhe pehle saare assets chahiye — screen recordings, website walkthrough clips, aur architecture diagram. Agar sab kuch 2 PM tak mil jaaye aaj, toh main aaj sham 6 baje tak pehla draft deliver kar sakta hoon. Isse kal feedback aur revisions ka time bhi bachega."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 51.0,
+            "end_time": 62.0,
+            "text": "Theek hai, yeh plan chalega. Toh video ka structure jo hamne agree kiya hai — pehle ScrumFlow.ai ka logo aayega tagline animation ke saath. Phir 5 second ka intro clip jo abhi humne record kiya. Uske baad website ka demo hoga highlighted sections ke saath — transcription, analytics, allocation engine. Aur last ke 60 seconds mein architecture overview."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 63.0,
+            "end_time": 72.0,
+            "text": "Website demo section ke baare mein — main har ek feature ko highlight karoonga jaise woh screen par aayega. Humne decide kiya hai ki video ka background blue theme ka hoga, website se match karne ke liye. Harsh, tu Telegram group wale motion background options mujhe bhej de taaki main sahi wala choose kar sakoon."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 73.0,
+            "end_time": 82.0,
+            "text": "Bhai, main toh Telegram par link pehle hi share kar chuka hoon. Aadity tu aaj 12 noon tak confirm kar de kaun sa use karna hai. Warna editing delay hogi aur main 6 PM delivery commit nahin kar sakta."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 83.0,
+            "end_time": 87.0,
+            "text": "Haan haan, 12 noon tak main motion background select karke confirm kar doonga. Noted."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 88.0,
+            "end_time": 100.0,
+            "text": "Achha. Ab transcription section ki baat karte hain video mein. Main poori meeting ka transcription Harsh ko bhejunga. Tu usse chaar animated caption boxes mein divide kar dena — ek per speaker. Har box mein text stream hona chahiye jaise speaker bol raha ho, live caption ki tarah. Harsh, kya yeh tere current editing setup mein ho sakta hai?"
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 101.0,
+            "end_time": 112.0,
+            "text": "Animated caption boxes toh ho sakta hai. Lekin zyada complex After Effects animations mujhse nahin honge yaar — woh meri field nahin hai abhi. Jo main kar sakta hoon woh hai basic transitions aur highlight overlay effect. Yeh 80 percent cover kar dega jo chahiye. Streaming text ke liye simpler approach leni padegi."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 113.0,
+            "end_time": 120.0,
+            "text": "Theek hai koi problem nahin. Complex animations minimal rakhenge. Aadity, kya tu aaj 1 PM tak website ka clean screen walkthrough record kar sakta hai? Teen pages include karne hain — meeting page, allocation engine, aur learning section. Yeh teen must-have highlights hain."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 121.0,
+            "end_time": 130.0,
+            "text": "Haan, 1 PM tak screen recording ho jaayegi. Lekin ek problem hai Mayank — abhi website par jo mock data hai woh bahut generic lag raha hai. Agar video mein placeholder data dikhega toh professional nahin lagega. Pehle mock data update karna padega."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 131.0,
+            "end_time": 142.0,
+            "text": "Sahi baat hai, yeh ek real risk hai. Aadity, website ka mock data aaj ki meeting ke context ke hisaab se realistic entries se replace kar — aaj ki date aur actual topics use kar. Kya tu 12:30 PM tak mock data update kar sakta hai?"
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 143.0,
+            "end_time": 148.0,
+            "text": "Haan bilkul, 12:30 PM tak mock data update ho jaayega aur phir uske baad screen recording karoonga. Timeline theek hai."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 149.0,
+            "end_time": 158.0,
+            "text": "Ek concern hai mere ko — ScrumFlow ka logo abhi exist hi nahin karta. Intro animation shuru karne ke liye mujhe actual logo file chahiye. Bina logo ke intro sequence complete nahin hogi. Kaun bana raha hai logo aur kab milega?"
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 159.0,
+            "end_time": 170.0,
+            "text": "Valid blocker hai yeh. Main aaj 11 AM tak ScrumFlow.ai ka logo design karke finalize karoonga aur directly Harsh ko Telegram par bhej dunga. Harsh, logo file receive hone se pehle intro sequence mat shuru karna."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 171.0,
+            "end_time": 177.0,
+            "text": "Theek hai samajh gaya. Lekin yaar, agar logo 12 noon ke baad aaya toh meri editing start time push ho jaayegi aur 6 PM delivery at risk ho jaayegi. Logo ka 11 AM tak aana hard dependency hai."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 178.0,
+            "end_time": 185.0,
+            "text": "Agreed, 11 AM logo delivery critical hai. Ab architecture section ki baat karte hain. Main Eraser.io par ek flowchart banaaunga — teen EC2 machines, RDS, aur ScrumFlow API layer ka deployment dikhaunga, AWS aur RDS logos ke saath. Yeh Harsh ko 1:30 PM tak bhej dunga."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 186.0,
+            "end_time": 193.0,
+            "text": "Architecture diagram animate karna chahiye ya static rakhna chahiye? Animation achha lagega but time bahut zyada lagega jo shayad hamare paas nahin hai."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 194.0,
+            "end_time": 202.0,
+            "text": "Decision yeh hai ki architecture diagram is version mein static rahega. Friday se pehle animation ke liye time nahin hai. Harsh, us slide ke liye simply slide-in transition kar dena. Enough hai woh."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 203.0,
+            "end_time": 208.0,
+            "text": "Architecture slide ke liye slide-in transition — confirmed, yeh main aasaani se kar sakta hoon."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 209.0,
+            "end_time": 221.0,
+            "text": "Theek hai. Ab article ki baat karte hain. Submission ke liye video ke saath ek written article bhi chahiye. Mere paas raw data collect hai — PRD, conversation logs, MeetMinds chat exports. Lekin usme bahut zyada garbage data hai jo clean karna padega. Aadity, kya tu un files se useful content segregate karne mein help kar sakta hai?"
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 222.0,
+            "end_time": 231.0,
+            "text": "Main help kar sakta hoon lekin yaar, aaj mock data update aur screen recording already hai mere paas. Article cleanup bhi aaj lena ek resource constraint hai — teen kaam ek din mein karna mushkil hai, sub kuch end of day tak complete nahin hoga."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 232.0,
+            "end_time": 242.0,
+            "text": "Fair hai. Decision yeh hai — Aadity ke liye aaj priority one hai mock data aur screen recording, kyunki Harsh unpar depend karta hai. Article cleanup kal subah ke liye move ho jaata hai. Pehla article pass main khud aaj raat kar lunga."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 243.0,
+            "end_time": 248.0,
+            "text": "Perfect. Toh aaj ka mera plan: noon tak motion background confirm, 12:30 tak mock data update, 1 PM tak screen recording. Article cleanup kal subah."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 249.0,
+            "end_time": 257.0,
+            "text": "Ek cheez aur — video mein background music kya rahega? Royalty-free, tech theme chahiye. Kisi ko toh confirm karna padega woh track. Bina music confirm hue main audio editing shuru nahin kar sakta."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 258.0,
+            "end_time": 266.0,
+            "text": "Haan yeh plan mein miss ho gaya tha. Decision: main royalty-free background music track select karke Harsh ko 2 PM tak bhejunga — tech slash ambient theme, blue aesthetic se match karta hua. Harsh, receipt confirm karke hi audio editing shuru karna."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 267.0,
+            "end_time": 273.0,
+            "text": "Confirmed. 2 PM hard deadline hai music ke liye. Agar 3 PM ke baad aaya toh problem hogi — final render ke liye minimum 2 ghante chahiye."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 274.0,
+            "end_time": 283.0,
+            "text": "Noted, 2 PM pakka hoga. Aadity, website ke calendar page par aaj ki meeting ka ek entry banana — aaj ki date, meeting ka context. Jo mock data rakha hai usmen isko bhi add karna. Isse video mein calendar feature bhi achhe se dikhega."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 284.0,
+            "end_time": 290.0,
+            "text": "Haan, calendar entry bhi mock data update ke saath hi kar dunga. Koi problem nahin."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 291.0,
+            "end_time": 303.0,
+            "text": "Ab open risks summarize karte hain close karne se pehle. Risk pehla: agar main logo 11 AM ke deadline miss karta hoon toh Harsh ki editing block ho jaayegi — yeh high severity hai. Risk doosra: Aadity ki screen recording agar 1 PM tak ready nahin hui toh Harsh main video segment shuru nahin kar sakta — yeh bhi high hai. Risk teesra: article cleanup kal ke liye defer ho gaya hai lekin Friday submission tight hai agar revisions aaye."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 304.0,
+            "end_time": 310.0,
+            "text": "Ek aur risk main add karoonga — After Effects ke bina complex animations nahin ho sakti toh video ka visual quality thoda limited rahega. Yeh expectation set karna zaroori hai."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 311.0,
+            "end_time": 317.0,
+            "text": "Sahi hai Harsh, woh risk acknowledged hai. Hamne already decide kar liya ki complex animations is version mein nahin honge. Scope clearly defined hai ab. Koi issue nahin."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 318.0,
+            "end_time": 325.0,
+            "text": "Friday deadline ke baare mein — ek internal review checkpoint Wednesday evening mein karna chahiye na? Agar Wednesday 5 PM tak pehla draft review ho jaaye toh Thursday mein revisions ka time hai Friday submission se pehle."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 326.0,
+            "end_time": 334.0,
+            "text": "Bilkul sahi. Decision: Wednesday shaam 5 PM par is hi call par video draft ka internal review hoga. Harsh, us checkpoint se pehle pehla full draft ready hona chahiye. Koi last minute questions hain?"
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 335.0,
+            "end_time": 342.0,
+            "text": "Haan ek cheez — Mayank, tune YouTube reference videos ki baat ki thi jo is tarah ki ban sakti hai. Woh examples Telegram par share kar dena taaki main visual style samajh sakoon editing shuru karne se pehle."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 343.0,
+            "end_time": 350.0,
+            "text": "Haan zaroor, woh main aaj 11:30 AM tak YouTube reference links Telegram par share kar dunga."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 351.0,
+            "end_time": 359.0,
+            "text": "Mayank ek aur cheez — ScrumFlow.ai ka tagline kya hoga jo logo ke saath aayega? Kya yeh already finalize hai ya abhi decide karna hai? Harsh ko yeh pata hona chahiye animation ke liye."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 360.0,
+            "end_time": 369.0,
+            "text": "Good catch Aadity. Tagline abhi finalize nahin hai. Decision: main aaj logo ke saath hi tagline bhi finalize karoonga aur logo file ke saath hi Harsh ko bhejunga 11 AM tak. Dono ek saath aayenge."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 370.0,
+            "end_time": 376.0,
+            "text": "Perfect, logo aur tagline dono 11 AM tak aayenge — confirm. Tab main intro sequence shuru kar sakta hoon."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 377.0,
+            "end_time": 384.0,
+            "text": "Aur ek important cheez — video mein jo website sections highlight honge unka order bhi decide kar lete hain. Pehle meeting calendar, phir transcription view, phir allocation engine, aur last mein learning dashboard. Yeh sequence fixed hai. Aadity tu isi order mein screen recording karna."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 385.0,
+            "end_time": 390.0,
+            "text": "Haan, order note kar liya hai — calendar, transcription, allocation engine, learning dashboard. Screen recording isi sequence mein hogi."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 391.0,
+            "end_time": 399.0,
+            "text": "Ek technical question — screen recording ka resolution kya hoga? 1080p ya 4K? Editing quality ke liye yeh matter karta hai. Aur frame rate bhi batana — 30fps ya 60fps?"
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 400.0,
+            "end_time": 407.0,
+            "text": "Good question. Decision: screen recording 1080p mein karna, 30fps. YouTube ke liye yeh standard enough hai aur file size bhi manageable rahega. Aadity, confirm kar sakta hai ki yeh possible hai tere setup mein?"
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 408.0,
+            "end_time": 413.0,
+            "text": "Haan, 1080p 30fps mein recording ho sakti hai. Koi issue nahin."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 414.0,
+            "end_time": 422.0,
+            "text": "Theek hai sab decide ho gaya. Chalo saare commitments ek baar summarize karte hain clearly. Mayank: logo aur tagline 11 AM tak, YouTube references 11:30 AM tak, architecture diagram 1:30 PM tak, background music 2 PM tak, article ka pehla pass aaj raat."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 423.0,
+            "end_time": 430.0,
+            "text": "Aadity: motion background 12 noon tak confirm karna, mock data update 12:30 PM tak, screen recording 1080p 30fps mein 1 PM tak — calendar, transcription, allocation, learning sequence mein. Article cleanup kal subah."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 431.0,
+            "end_time": 438.0,
+            "text": "Harsh: saare assets receive hone ke baad editing shuru karna, pehla full draft aaj 6 PM tak deliver karna. Complex animations out of scope hain is version mein. Internal review Wednesday 5 PM. Friday submission final deadline."
+        },
+        {
+            "speaker_id": "SPEAKER_01",
+            "speaker_label": "Aadity",
+            "start_time": 439.0,
+            "end_time": 444.0,
+            "text": "Sab clear hai mujhe. Chalo shuru karte hain."
+        },
+        {
+            "speaker_id": "SPEAKER_02",
+            "speaker_label": "Harsh",
+            "start_time": 445.0,
+            "end_time": 450.0,
+            "text": "All clear mere ko bhi. Jaise hi assets aayenge editing shuru kar dunga."
+        },
+        {
+            "speaker_id": "SPEAKER_00",
+            "speaker_label": "Mayank",
+            "start_time": 451.0,
+            "end_time": 457.0,
+            "text": "Perfect. Meeting khatam. Sabko apna kaam pata hai. Kaam pe lago, Friday ke liye taiyar rehna. Bye sab."
+        }
+    ]
+}

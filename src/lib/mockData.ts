@@ -1,35 +1,26 @@
 // ─── Projects ────────────────────────────────────────────────────────────────
 export const PROJECTS = [
-    { id: 'P-001', name: 'Atlas Platform', color: '#3b82f6', status: 'active', budget: 480000, budgetTier: 'high' },
-    { id: 'P-002', name: 'Phoenix ML', color: '#8b5cf6', status: 'active', budget: 220000, budgetTier: 'medium' },
-    { id: 'P-003', name: 'Nova Dashboard', color: '#06b6d4', status: 'active', budget: 95000, budgetTier: 'low' },
-    { id: 'P-004', name: 'Titan API Gateway', color: '#f59e0b', status: 'active', budget: 350000, budgetTier: 'high' },
-    { id: 'P-005', name: 'Ember Analytics', color: '#10b981', status: 'active', budget: 140000, budgetTier: 'medium' },
-    { id: 'P-006', name: 'Zenith Auth', color: '#f43f5e', status: 'completed', budget: 75000, budgetTier: 'low' },
+    { id: 'P-007', name: 'ScrumFlow.ai', color: '#6366f1', status: 'active', budget: 180000, budgetTier: 'medium' },
 ];
 
 // ─── Dashboard ────────────────────────────────────────────────────────────────
 export const DASHBOARD_METRICS = {
-    activeProjects: 5,
-    upcomingMeetings: 8,
-    pendingAllocations: 12,
-    acceptanceRate: 82.4,
+    activeProjects: 1,
+    upcomingMeetings: 3,
+    pendingAllocations: 6,
+    acceptanceRate: 86.0,
 };
 
 export const RECENT_ALLOCATIONS = [
-    { id: 'A-2841', taskId: 'T-441', assignee: 'Sarah Chen', confidence: 91, status: 'accepted', timestamp: '2026-02-20T14:30:00Z' },
-    { id: 'A-2840', taskId: 'T-438', assignee: 'Marcus Webb', confidence: 78, status: 'pending', timestamp: '2026-02-20T13:15:00Z' },
-    { id: 'A-2839', taskId: 'T-435', assignee: 'Priya Nair', confidence: 65, status: 'overridden', timestamp: '2026-02-20T11:00:00Z' },
-    { id: 'A-2838', taskId: 'T-432', assignee: 'James Okoye', confidence: 88, status: 'accepted', timestamp: '2026-02-20T09:20:00Z' },
-    { id: 'A-2837', taskId: 'T-429', assignee: 'Emily Zhao', confidence: 74, status: 'rejected', timestamp: '2026-02-19T17:45:00Z' },
+    { id: 'ALLOC-004', taskId: 'AUTO-T-001', assignee: 'Harsh', confidence: 78, status: 'pending', timestamp: '2026-03-08T10:00:00Z' },
+    { id: 'ALLOC-001', taskId: 'AUTO-T-005', assignee: 'Sara Iyer', confidence: 86, status: 'pending', timestamp: '2026-03-08T10:05:00Z' },
+    { id: 'ALLOC-002', taskId: 'AUTO-T-006', assignee: 'Sara Iyer', confidence: 86, status: 'pending', timestamp: '2026-03-08T10:10:00Z' },
+    { id: 'ALLOC-003', taskId: 'AUTO-T-003', assignee: 'Aadity', confidence: 62, status: 'pending', timestamp: '2026-03-08T10:15:00Z' },
+    { id: 'ALLOC-005', taskId: 'AUTO-T-008', assignee: 'Neha Joshi', confidence: 83, status: 'pending', timestamp: '2026-03-08T10:20:00Z' },
 ];
 
 export const RECENT_MEETINGS_IMPORTANCE = [
-    { id: 'M-201', title: 'Sprint Planning Q1', project: 'Atlas Platform', importanceScore: 94, projectId: 'P-001' },
-    { id: 'M-200', title: 'ML Model Review', project: 'Phoenix ML', importanceScore: 87, projectId: 'P-002' },
-    { id: 'M-199', title: 'API Architecture', project: 'Titan API Gateway', importanceScore: 82, projectId: 'P-004' },
-    { id: 'M-198', title: 'Dashboard Refinement', project: 'Nova Dashboard', importanceScore: 71, projectId: 'P-003' },
-    { id: 'M-197', title: 'Quarterly Business Review', project: 'Ember Analytics', importanceScore: 65, projectId: 'P-005' },
+    { id: 'M-202', title: 'Demo Video Planning', project: 'ScrumFlow.ai', importanceScore: 88, projectId: 'P-007' },
 ];
 
 export const ACCURACY_TREND = Array.from({ length: 30 }, (_, i) => ({
@@ -39,269 +30,303 @@ export const ACCURACY_TREND = Array.from({ length: 30 }, (_, i) => ({
 }));
 
 // ─── Meetings ─────────────────────────────────────────────────────────────────
+// All upcoming meetings are ScrumFlow.ai project checkpoints
 export const UPCOMING_MEETINGS = [
     {
-        id: 'M-210', title: 'Sprint Planning – Q1 Wk3', projectId: 'P-001', project: 'Atlas Platform',
-        date: '2026-02-21', time: '10:00', duration: 60, budgetTier: 'high',
-        daysToDeadline: 3, importanceScore: 88,
-        participants: ['Sarah Chen', 'James Okoye', 'Marcus Webb', 'Priya Nair'],
-        description: 'Plan tasks for the upcoming sprint within the Atlas Platform.',
+        id: 'M-203', title: 'ScrumFlow.ai Internal Review — Draft Video', projectId: 'P-007', project: 'ScrumFlow.ai',
+        date: '2026-03-10', time: '17:00', duration: 30, budgetTier: 'medium',
+        daysToDeadline: 1, importanceScore: 91,
+        participants: ['Mayank Sharma', 'Aadity', 'Harsh'],
+        description: 'Internal review of Harsh draft video. All feedback to be given inline. Go/no-go decision for final submission.',
     },
     {
-        id: 'M-211', title: 'ML Pipeline Architecture Review', projectId: 'P-002', project: 'Phoenix ML',
-        date: '2026-02-22', time: '14:00', duration: 90, budgetTier: 'medium',
-        daysToDeadline: 7, importanceScore: 76,
-        participants: ['Emily Zhao', 'Marcus Webb'],
-        description: 'Review the ML pipeline design for Phoenix ML.',
+        id: 'M-204', title: 'ScrumFlow.ai Article Review & Submission Prep', projectId: 'P-007', project: 'ScrumFlow.ai',
+        date: '2026-03-11', time: '10:00', duration: 45, budgetTier: 'medium',
+        daysToDeadline: 2, importanceScore: 84,
+        participants: ['Mayank Sharma', 'Aadity'],
+        description: 'Final review of the submission article. Aadity cleanup pass completed, Mayank final sign-off. Submit together with video.',
     },
     {
-        id: 'M-212', title: 'API Security Audit', projectId: 'P-004', project: 'Titan API Gateway',
-        date: '2026-02-23', time: '11:00', duration: 45, budgetTier: 'high',
-        daysToDeadline: 2, importanceScore: 95,
-        participants: ['James Okoye', 'Emily Zhao', 'Sarah Chen'],
-        description: 'Audit API security configurations and implement patches.',
-    },
-    {
-        id: 'M-213', title: 'Nova Dashboard UX Review', projectId: 'P-003', project: 'Nova Dashboard',
-        date: '2026-02-24', time: '13:00', duration: 60, budgetTier: 'low',
-        daysToDeadline: 14, importanceScore: 62,
-        participants: ['Priya Nair', 'Sarah Chen'],
-        description: 'Review UX designs for the Nova Dashboard.',
-    },
-    {
-        id: 'M-214', title: 'Analytics Data Pipeline', projectId: 'P-005', project: 'Ember Analytics',
-        date: '2026-02-25', time: '09:30', duration: 75, budgetTier: 'medium',
-        daysToDeadline: 10, importanceScore: 71,
-        participants: ['Marcus Webb', 'James Okoye', 'Priya Nair'],
-        description: 'Set up the analytics data pipeline for Ember Analytics.',
-    },
-    {
-        id: 'M-215', title: 'Cross-team Dependency Review', projectId: 'P-001', project: 'Atlas Platform',
-        date: '2026-02-26', time: '15:00', duration: 30, budgetTier: 'high',
-        daysToDeadline: 5, importanceScore: 80,
-        participants: ['Sarah Chen', 'James Okoye'],
-        description: 'Review cross-team dependencies for Atlas Platform release.',
-    },
-    {
-        id: 'M-216', title: 'Stakeholder Roadmap Sync', projectId: 'P-002', project: 'Phoenix ML',
-        date: '2026-02-27', time: '10:00', duration: 90, budgetTier: 'medium',
-        daysToDeadline: 20, importanceScore: 68,
-        participants: ['Emily Zhao', 'Priya Nair', 'Marcus Webb'],
-        description: 'Sync on roadmap priorities and timeline with stakeholders.',
+        id: 'M-205', title: 'ScrumFlow.ai Demo Submission & Debrief', projectId: 'P-007', project: 'ScrumFlow.ai',
+        date: '2026-03-12', time: '14:00', duration: 20, budgetTier: 'medium',
+        daysToDeadline: 3, importanceScore: 75,
+        participants: ['Mayank Sharma', 'Aadity', 'Harsh'],
+        description: 'Submit the final video and article. Quick debrief on what went well and retrospective for future sprints.',
     },
 ];
 
 export const PREVIOUS_MEETINGS = [
     {
-        id: 'M-201', title: 'Sprint Planning Q1', project: 'Atlas Platform', projectId: 'P-001',
-        date: '2026-02-14', budgetTier: 'high', daysToDeadline: 5,
-        decisionDensity: 2.8, importanceScore: 94, taskCreated: 12,
-    },
-    {
-        id: 'M-200', title: 'ML Model Review', project: 'Phoenix ML', projectId: 'P-002',
-        date: '2026-02-13', budgetTier: 'medium', daysToDeadline: 10,
-        decisionDensity: 1.9, importanceScore: 87, taskCreated: 7,
-    },
-    {
-        id: 'M-199', title: 'API Architecture Deep Dive', project: 'Titan API Gateway', projectId: 'P-004',
-        date: '2026-02-12', budgetTier: 'high', daysToDeadline: 3,
-        decisionDensity: 3.2, importanceScore: 92, taskCreated: 15,
-    },
-    {
-        id: 'M-198', title: 'Dashboard Refinement', project: 'Nova Dashboard', projectId: 'P-003',
-        date: '2026-02-10', budgetTier: 'low', daysToDeadline: 21,
-        decisionDensity: 0.9, importanceScore: 71, taskCreated: 4,
-    },
-    {
-        id: 'M-197', title: 'Quarterly Business Review', project: 'Ember Analytics', projectId: 'P-005',
-        date: '2026-02-07', budgetTier: 'medium', daysToDeadline: 15,
-        decisionDensity: 1.2, importanceScore: 65, taskCreated: 6,
-    },
-    {
-        id: 'M-196', title: 'Infrastructure Scaling Plan', project: 'Atlas Platform', projectId: 'P-001',
-        date: '2026-02-05', budgetTier: 'high', daysToDeadline: 7,
-        decisionDensity: 2.4, importanceScore: 88, taskCreated: 10,
-    },
-    {
-        id: 'M-195', title: 'Auth Service Integration', project: 'Zenith Auth', projectId: 'P-006',
-        date: '2026-02-03', budgetTier: 'low', daysToDeadline: 30,
-        decisionDensity: 0.7, importanceScore: 58, taskCreated: 3,
+        // ── Real meeting: extracted by AAES pipeline from scrumMeetAudio_aligned_output ──
+        id: 'M-202', title: 'ScrumFlow.ai Demo Video Planning', project: 'ScrumFlow.ai', projectId: 'P-007',
+        date: '2026-03-08', budgetTier: 'medium', daysToDeadline: 3,
+        decisionDensity: 1.34, importanceScore: 88, taskCreated: 12,
     },
 ];
 
-// ─── Speaker Metrics ──────────────────────────────────────────────────────────
+// ─── Speaker Metrics — ScrumFlow.ai Demo Video Planning (M-202, 8 min) ─────
 export const SPEAKERS = [
-    { id: 'E-14', name: 'Sarah Chen', speakingPct: 32, turns: 22, interruptions: 3, color: '#3b82f6' },
-    { id: 'E-07', name: 'Marcus Webb', speakingPct: 28, turns: 18, interruptions: 5, color: '#8b5cf6' },
-    { id: 'E-22', name: 'James Okoye', speakingPct: 21, turns: 14, interruptions: 2, color: '#06b6d4' },
-    { id: 'E-31', name: 'Priya Nair', speakingPct: 12, turns: 9, interruptions: 1, color: '#10b981' },
-    { id: 'E-45', name: 'Emily Zhao', speakingPct: 7, turns: 5, interruptions: 0, color: '#f59e0b' },
+    { id: 'SPEAKER_00', name: 'Mayank Sharma', speakingPct: 48, turns: 22, interruptions: 2, color: '#6366f1' },
+    { id: 'SPEAKER_01', name: 'Aadity', speakingPct: 34, turns: 18, interruptions: 3, color: '#06b6d4' },
+    { id: 'SPEAKER_02', name: 'Harsh', speakingPct: 18, turns: 10, interruptions: 1, color: '#f59e0b' },
 ];
 
 export const SPEAKER_TIMELINE = [
-    { speaker: 'E-14', start: 0, end: 8, color: '#3b82f6' },
-    { speaker: 'E-07', start: 8, end: 15, color: '#8b5cf6' },
-    { speaker: 'E-14', start: 17, end: 24, color: '#3b82f6' },
-    { speaker: 'E-22', start: 24, end: 31, color: '#06b6d4' },
-    { speaker: 'E-07', start: 33, end: 39, color: '#8b5cf6' },
-    { speaker: 'E-31', start: 39, end: 44, color: '#10b981' },
-    { speaker: 'E-14', start: 46, end: 53, color: '#3b82f6' },
-    { speaker: 'E-45', start: 53, end: 57, color: '#f59e0b' },
-    { speaker: 'E-22', start: 57, end: 60, color: '#06b6d4' },
+    { speaker: 'SPEAKER_00', start: 0, end: 2, color: '#6366f1' },
+    { speaker: 'SPEAKER_01', start: 2, end: 3, color: '#06b6d4' },
+    { speaker: 'SPEAKER_02', start: 3, end: 4, color: '#f59e0b' },
+    { speaker: 'SPEAKER_00', start: 4, end: 5, color: '#6366f1' },
+    { speaker: 'SPEAKER_01', start: 5, end: 6, color: '#06b6d4' },
+    { speaker: 'SPEAKER_00', start: 6, end: 7, color: '#6366f1' },
+    { speaker: 'SPEAKER_02', start: 7, end: 8, color: '#f59e0b' },
 ];
 
-// ─── Silence Metrics ──────────────────────────────────────────────────────────
+// ─── Silence Metrics — ScrumFlow.ai Demo Video Planning (M-202) ─────────────
 export const SILENCE_METRICS = {
-    totalDuration: '4:32',
-    avgGap: 6.3,
-    frequency: 18,
-    longestGap: 14,
+    totalDuration: '0:42',
+    avgGap: 4.1,
+    frequency: 6,
+    longestGap: 8,
 };
 
 export const SILENCE_HISTOGRAM = [
-    { bucket: '2-4s', count: 7 },
-    { bucket: '4-6s', count: 5 },
-    { bucket: '6-8s', count: 3 },
-    { bucket: '8-10s', count: 2 },
-    { bucket: '>10s', count: 1 },
+    { bucket: '2-4s', count: 3 },
+    { bucket: '4-6s', count: 2 },
+    { bucket: '6-8s', count: 1 },
+    { bucket: '8-10s', count: 0 },
+    { bucket: '>10s', count: 0 },
 ];
 
-// ─── Tasks ────────────────────────────────────────────────────────────────────
-export const TASKS = [
-    {
-        id: 'T-441', title: 'Implement OAuth2 PKCE Flow', projectId: 'P-001', project: 'Atlas Platform',
-        complexity: 8, complexityLabel: 'High', blocking: 3, blockedBy: 1,
-        crossTeamImpact: 2, historicalCompletion: 74, status: 'active',
-        age: 12, estimatedHours: 16, dependencies: ['T-430', 'T-433'], assignee: 'Sarah Chen',
-        description: 'Implement OAuth2 PKCE flow for secure client-side authentication.',
-    },
-    {
-        id: 'T-438', title: 'Design ML Feature Pipeline', projectId: 'P-002', project: 'Phoenix ML',
-        complexity: 7, complexityLabel: 'High', blocking: 2, blockedBy: 0,
-        crossTeamImpact: 3, historicalCompletion: 68, status: 'open',
-        age: 18, estimatedHours: 32, dependencies: [], assignee: null,
-        description: 'Design and implement the ML feature extraction pipeline.',
-    },
-    {
-        id: 'T-435', title: 'Set up CI/CD Pipeline', projectId: 'P-004', project: 'Titan API Gateway',
-        complexity: 5, complexityLabel: 'Med', blocking: 4, blockedBy: 1,
-        crossTeamImpact: 1, historicalCompletion: 91, status: 'assigned',
-        age: 22, estimatedHours: 8, dependencies: ['T-431'], assignee: 'Priya Nair',
-        description: 'Configure CI/CD pipeline for automated deployment.',
-    },
-    {
-        id: 'T-432', title: 'API Rate Limiting', projectId: 'P-004', project: 'Titan API Gateway',
-        complexity: 4, complexityLabel: 'Med', blocking: 1, blockedBy: 2,
-        crossTeamImpact: 0, historicalCompletion: 83, status: 'active',
-        age: 9, estimatedHours: 6, dependencies: ['T-425', 'T-426'], assignee: 'James Okoye',
-        description: 'Implement rate limiting for API endpoints.',
-    },
-    {
-        id: 'T-429', title: 'Dashboard Performance Optimization', projectId: 'P-003', project: 'Nova Dashboard',
-        complexity: 3, complexityLabel: 'Low', blocking: 0, blockedBy: 1,
-        crossTeamImpact: 0, historicalCompletion: 95, status: 'blocked',
-        age: 31, estimatedHours: 4, dependencies: ['T-415'], assignee: 'Emily Zhao',
-        description: 'Optimize dashboard loading performance by 40%.',
-    },
-    {
-        id: 'T-426', title: 'Analytics Event Tracking', projectId: 'P-005', project: 'Ember Analytics',
-        complexity: 6, complexityLabel: 'Med', blocking: 2, blockedBy: 0,
-        crossTeamImpact: 4, historicalCompletion: 79, status: 'open',
-        age: 5, estimatedHours: 12, dependencies: [], assignee: null,
-        description: 'Implement comprehensive event tracking for analytics.',
-    },
-    {
-        id: 'T-422', title: 'Database Schema Migration', projectId: 'P-001', project: 'Atlas Platform',
-        complexity: 9, complexityLabel: 'High', blocking: 5, blockedBy: 0,
-        crossTeamImpact: 3, historicalCompletion: 61, status: 'open',
-        age: 45, estimatedHours: 24, dependencies: [], assignee: null,
-        description: 'Migrate legacy database schema to new normalized structure.',
-    },
-    {
-        id: 'T-419', title: 'Email Notification Service', projectId: 'P-001', project: 'Atlas Platform',
-        complexity: 2, complexityLabel: 'Low', blocking: 0, blockedBy: 1,
-        crossTeamImpact: 1, historicalCompletion: 97, status: 'complete',
-        age: 60, estimatedHours: 3, dependencies: ['T-410'], assignee: 'Sarah Chen',
-        description: 'Build email notification microservice.',
-    },
-];
-
-// ─── Task Graph Nodes ─────────────────────────────────────────────────────────
+// ─── Task Graph Nodes — ScrumFlow.ai AUTO-T dependency chain ─────────────
 export const GRAPH_NODES = [
-    { id: 'T-441', label: 'OAuth2 PKCE', status: 'active', complexity: 8, x: 400, y: 80 },
-    { id: 'T-438', label: 'ML Pipeline', status: 'open', complexity: 7, x: 200, y: 200 },
-    { id: 'T-435', label: 'CI/CD Setup', status: 'assigned', complexity: 5, x: 600, y: 200 },
-    { id: 'T-432', label: 'Rate Limiting', status: 'active', complexity: 4, x: 400, y: 320 },
-    { id: 'T-429', label: 'Dashboard Perf', status: 'blocked', complexity: 3, x: 150, y: 420 },
-    { id: 'T-426', label: 'Event Tracking', status: 'open', complexity: 6, x: 600, y: 400 },
-    { id: 'T-422', label: 'DB Migration', status: 'open', complexity: 9, x: 200, y: 80 },
-    { id: 'T-419', label: 'Email Service', status: 'complete', complexity: 2, x: 700, y: 80 },
+    { id: 'AUTO-T-001', label: 'Draft Video', status: 'open', complexity: 7, x: 500, y: 300 },
+    { id: 'AUTO-T-002', label: 'Motion BG', status: 'open', complexity: 2, x: 100, y: 100 },
+    { id: 'AUTO-T-003', label: 'Mock Data', status: 'open', complexity: 2, x: 200, y: 200 },
+    { id: 'AUTO-T-004', label: 'Screen Recording', status: 'open', complexity: 3, x: 350, y: 200 },
+    { id: 'AUTO-T-005', label: 'Logo + Tagline', status: 'open', complexity: 2, x: 100, y: 300 },
+    { id: 'AUTO-T-006', label: 'Architecture Diagram', status: 'open', complexity: 1, x: 100, y: 420 },
+    { id: 'AUTO-T-008', label: 'Article 1st Pass', status: 'open', complexity: 2, x: 300, y: 480 },
+    { id: 'AUTO-T-009', label: 'Article Cleanup', status: 'open', complexity: 3, x: 500, y: 480 },
+    { id: 'AUTO-T-010', label: 'Music Track', status: 'open', complexity: 2, x: 100, y: 540 },
+    { id: 'AUTO-T-011', label: 'Calendar Entry', status: 'open', complexity: 1, x: 650, y: 200 },
+    { id: 'AUTO-T-012', label: 'YT References', status: 'open', complexity: 1, x: 650, y: 100 },
 ];
 
 export const GRAPH_EDGES = [
-    { from: 'T-422', to: 'T-441' },
-    { from: 'T-441', to: 'T-432' },
-    { from: 'T-432', to: 'T-429' },
-    { from: 'T-438', to: 'T-429' },
-    { from: 'T-435', to: 'T-432' },
-    { from: 'T-426', to: 'T-435' },
-    { from: 'T-419', to: 'T-435' },
+    { from: 'AUTO-T-002', to: 'AUTO-T-001' },
+    { from: 'AUTO-T-003', to: 'AUTO-T-001' },
+    { from: 'AUTO-T-004', to: 'AUTO-T-001' },
+    { from: 'AUTO-T-005', to: 'AUTO-T-001' },
+    { from: 'AUTO-T-006', to: 'AUTO-T-001' },
+    { from: 'AUTO-T-010', to: 'AUTO-T-001' },
+    { from: 'AUTO-T-003', to: 'AUTO-T-004' },
+    { from: 'AUTO-T-008', to: 'AUTO-T-009' },
+];
+
+// ─── Tasks ────────────────────────────────────────────────────────────────────
+// ── Real tasks extracted by AAES pipeline — ScrumFlow.ai Demo Video Planning (2026-03-08) ──
+export const TASKS = [
+    {
+        id: 'AUTO-T-001', title: 'Deliver first draft of demo video', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 7, complexityLabel: 'High', blocking: 0, blockedBy: 6,
+        crossTeamImpact: 3, historicalCompletion: 85, status: 'open',
+        age: 0, estimatedHours: 16,
+        dependencies: ['AUTO-T-002', 'AUTO-T-003', 'AUTO-T-004', 'AUTO-T-005', 'AUTO-T-006', 'AUTO-T-010'],
+        assignee: 'Harsh',
+        description: 'Edit and deliver the first full draft of the ScrumFlow.ai demo video by 6 PM today. Incorporate: logo intro animation, 5-second team intro, website demo with feature highlights (blue theme), and static architecture overview slide. Complex After Effects animations are out of scope.',
+    },
+    {
+        id: 'AUTO-T-002', title: 'Select and confirm motion background', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 2, complexityLabel: 'Low', blocking: 1, blockedBy: 0,
+        crossTeamImpact: 1, historicalCompletion: 88, status: 'open',
+        age: 0, estimatedHours: 4,
+        dependencies: [],
+        assignee: 'Aadity',
+        description: 'Review motion background options shared on Telegram and confirm the blue-themed option to Harsh by 12 noon today. This blocks video editing from starting.',
+    },
+    {
+        id: 'AUTO-T-003', title: 'Update website mock data with realistic entries', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 2, complexityLabel: 'Low', blocking: 1, blockedBy: 0,
+        crossTeamImpact: 1, historicalCompletion: 88, status: 'open',
+        age: 0, estimatedHours: 4,
+        dependencies: [],
+        assignee: 'Aadity',
+        description: 'Replace generic placeholder entries on the website with realistic mock data. Priority task — must complete before screen recording. Deadline: 12:30 PM today.',
+    },
+    {
+        id: 'AUTO-T-004', title: 'Record clean screen walkthrough of the website', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 3, complexityLabel: 'Low', blocking: 1, blockedBy: 1,
+        crossTeamImpact: 2, historicalCompletion: 88, status: 'open',
+        age: 0, estimatedHours: 8,
+        dependencies: ['AUTO-T-003'],
+        assignee: 'Aadity',
+        description: 'Record a 1080p @ 30fps screen walkthrough: meeting calendar → transcription view → allocation engine → learning dashboard. Depends on mock data update. Deadline: 1 PM today.',
+    },
+    {
+        id: 'AUTO-T-005', title: 'Design and finalize ScrumFlow.ai logo and tagline', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 2, complexityLabel: 'Low', blocking: 1, blockedBy: 0,
+        crossTeamImpact: 2, historicalCompletion: 91, status: 'open',
+        age: 0, estimatedHours: 5,
+        dependencies: [],
+        assignee: 'Mayank',
+        description: 'Design the ScrumFlow.ai logo and finalize the tagline. Send both to Harsh via Telegram by 11 AM today. Hard blocker for intro animation.',
+    },
+    {
+        id: 'AUTO-T-006', title: 'Create architecture flowchart on Eraser.io', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 1, complexityLabel: 'Low', blocking: 1, blockedBy: 0,
+        crossTeamImpact: 1, historicalCompletion: 91, status: 'open',
+        age: 0, estimatedHours: 5,
+        dependencies: [],
+        assignee: 'Mayank',
+        description: 'Build a static architecture flowchart on Eraser.io: 3 × EC2 machines, RDS, ScrumFlow API layer. AWS/RDS logos. Static in video. Send to Harsh by 1:30 PM.',
+    },
+    {
+        id: 'AUTO-T-008', title: 'Perform first pass of the article', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 2, complexityLabel: 'Low', blocking: 1, blockedBy: 0,
+        crossTeamImpact: 1, historicalCompletion: 91, status: 'open',
+        age: 0, estimatedHours: 5,
+        dependencies: [],
+        assignee: 'Mayank',
+        description: 'Write the first pass of the submission article using PRD, conversation logs, and MeetMinds exports. Deadline: tonight. Aadity cleanup depends on this.',
+    },
+    {
+        id: 'AUTO-T-009', title: 'Article content cleanup and segregation', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 3, complexityLabel: 'Low', blocking: 0, blockedBy: 1,
+        crossTeamImpact: 1, historicalCompletion: 88, status: 'open',
+        age: 0, estimatedHours: 4,
+        dependencies: ['AUTO-T-008'],
+        assignee: 'Aadity',
+        description: 'Segregate useful content from raw PRD and chat data, clean up article after Mayank first pass. Moved to tomorrow morning.',
+    },
+    {
+        id: 'AUTO-T-010', title: 'Select and send royalty-free background music track', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 2, complexityLabel: 'Low', blocking: 1, blockedBy: 0,
+        crossTeamImpact: 1, historicalCompletion: 91, status: 'open',
+        age: 0, estimatedHours: 2,
+        dependencies: [],
+        assignee: 'Mayank',
+        description: 'Pick a royalty-free tech/ambient background music track (blue aesthetic) and send to Harsh by 2 PM today.',
+    },
+    {
+        id: 'AUTO-T-011', title: "Add today's meeting entry to calendar mock data", projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 1, complexityLabel: 'Low', blocking: 0, blockedBy: 0,
+        crossTeamImpact: 1, historicalCompletion: 88, status: 'open',
+        age: 0, estimatedHours: 2,
+        dependencies: [],
+        assignee: 'Aadity',
+        description: "Add a calendar entry for today's ScrumFlow.ai demo planning meeting to the website mock data.",
+    },
+    {
+        id: 'AUTO-T-012', title: 'Share YouTube reference video links on Telegram', projectId: 'P-007', project: 'ScrumFlow.ai',
+        complexity: 1, complexityLabel: 'Low', blocking: 0, blockedBy: 0,
+        crossTeamImpact: 1, historicalCompletion: 91, status: 'open',
+        age: 0, estimatedHours: 1,
+        dependencies: [],
+        assignee: 'Mayank',
+        description: 'Share YouTube links of similar-style demo videos on Telegram by 11:30 AM for Harsh to align visual direction.',
+    },
 ];
 
 // ─── Allocations ──────────────────────────────────────────────────────────────
+// ── Real allocation suggestions — AAES pipeline output (ScrumFlow.ai Demo Video Planning) ──
 export const PENDING_ALLOCATIONS = [
     {
-        id: 'A-2840', taskId: 'T-438', taskTitle: 'Design ML Feature Pipeline',
-        assignee: { name: 'Marcus Webb', role: 'Senior ML Engineer', id: 'E-07' },
-        skillMatch: 87, loadFit: 72, confidence: 78,
+        id: 'ALLOC-001', taskId: 'AUTO-T-005', taskTitle: 'Design and finalize ScrumFlow.ai logo and tagline',
+        assignee: { name: 'Sara Iyer', role: 'Systems Architect', id: 'E-09' },
+        skillMatch: 100, loadFit: 58, confidence: 86,
         reasoning: [
-            'Highest ML skill match in available pool (87%)',
-            'Current task load (30h/week) near team median (32h)',
-            'Previously completed 4 related ML pipeline tasks',
-            'Certified in TensorFlow and Scikit-learn',
-            'Available bandwidth of 10h/week for this sprint',
+            'Skill match: 100% (documentation, architecture, brand-identity)',
+            'Workload: 12h/week current load + 5h task = 17h vs 40h capacity (58% fit)',
+            'Historical completion rate: 95% across Systems Architect task types',
+            'Highest combined score among available team members',
         ],
         alternatives: [
-            { name: 'Emily Zhao', id: 'E-45', skillMatch: 71, loadFit: 85 },
-            { name: 'Priya Nair', id: 'E-31', skillMatch: 63, loadFit: 90 },
+            { name: 'Neha Joshi', id: 'E-07', skillMatch: 100, loadFit: 48 },
+            { name: 'Deepika Singh', id: 'E-11', skillMatch: 100, loadFit: 43 },
         ],
     },
     {
-        id: 'A-2843', taskId: 'T-422', taskTitle: 'Database Schema Migration',
-        assignee: { name: 'James Okoye', role: 'Backend Engineer', id: 'E-22' },
-        skillMatch: 94, loadFit: 68, confidence: 85,
+        id: 'ALLOC-002', taskId: 'AUTO-T-006', taskTitle: 'Create architecture flowchart on Eraser.io',
+        assignee: { name: 'Sara Iyer', role: 'Systems Architect', id: 'E-09' },
+        skillMatch: 100, loadFit: 58, confidence: 86,
         reasoning: [
-            'Highest backend DB skill match in pool (94%)',
-            'Led 3 previous schema migrations successfully',
-            'Current load (28h/week) below team median (35h)',
-            'Expert in PostgreSQL schema design patterns',
+            'Skill match: 100% (3/3 required skills: architecture, system-design, Eraser.io)',
+            'Workload: 12h/week current load + 5h task = 17h vs 40h capacity (58% fit)',
+            'Historical completion rate: 95% across Systems Architect task types',
+            'Highest combined score — only member with both architecture and Eraser.io skills',
         ],
         alternatives: [
-            { name: 'Sarah Chen', id: 'E-14', skillMatch: 82, loadFit: 55 },
-            { name: 'Marcus Webb', id: 'E-07', skillMatch: 67, loadFit: 72 },
+            { name: 'Mayank Sharma', id: 'E-01', skillMatch: 67, loadFit: 38 },
+            { name: 'Neha Joshi', id: 'E-07', skillMatch: 33, loadFit: 48 },
         ],
     },
     {
-        id: 'A-2844', taskId: 'T-426', taskTitle: 'Analytics Event Tracking',
-        assignee: { name: 'Emily Zhao', role: 'Data Engineer', id: 'E-45' },
-        skillMatch: 79, loadFit: 88, confidence: 64,
+        id: 'ALLOC-003', taskId: 'AUTO-T-003', taskTitle: 'Update website mock data with realistic entries',
+        assignee: { name: 'Aadity', role: 'Frontend Engineer', id: 'E-02' },
+        skillMatch: 50, loadFit: 65, confidence: 62,
         reasoning: [
-            'Strong analytics domain expertise (segment, mixpanel)',
-            'Lowest utilization in team (22h/week)',
-            'Completed similar tracking task T-391 in sprint 8',
+            'Skill match: 50% (1/2 required skills: frontend, mock-data)',
+            'Workload: 10h/week current load + 4h task = 14h vs 40h capacity (65% fit)',
+            'Historical completion rate: 88% across Frontend Engineer task types',
+            'Transcript assigns this directly to Aadity — highest intent signal',
         ],
         alternatives: [
-            { name: 'Priya Nair', id: 'E-31', skillMatch: 68, loadFit: 92 },
+            { name: 'Sara Iyer', id: 'E-09', skillMatch: 50, loadFit: 60 },
+            { name: 'Vikram Nair', id: 'E-08', skillMatch: 50, loadFit: 45 },
+        ],
+    },
+    {
+        id: 'ALLOC-004', taskId: 'AUTO-T-001', taskTitle: 'Deliver first draft of demo video',
+        assignee: { name: 'Harsh', role: 'Video Editor', id: 'E-03' },
+        skillMatch: 100, loadFit: 70, confidence: 78,
+        reasoning: [
+            'Skill match: 100% (video-editing, intro-animation, captions, highlight-overlay, 1080p-rendering)',
+            'Workload: 8h/week current load + 16h task = 24h vs 40h capacity (70% fit)',
+            'Historical completion rate: 85% across Video Editor task types',
+            'Committed in meeting — transcript owner signal confirms assignment',
+        ],
+        alternatives: [
+            { name: 'Arjun Kapoor', id: 'E-10', skillMatch: 100, loadFit: 55 },
+        ],
+    },
+    {
+        id: 'ALLOC-005', taskId: 'AUTO-T-008', taskTitle: 'Perform first pass of the article',
+        assignee: { name: 'Neha Joshi', role: 'Content Writer', id: 'E-07' },
+        skillMatch: 100, loadFit: 48, confidence: 83,
+        reasoning: [
+            'Skill match: 100% (content-writing, article-writing, technical-writing)',
+            'Workload: 16h/week current load + 5h task = 21h vs 40h capacity (48% fit)',
+            'Historical completion rate: 94% — highest among content-capable members',
+            'Mayank committed in transcript but Neha is better skilled match for article quality',
+        ],
+        alternatives: [
+            { name: 'Deepika Singh', id: 'E-11', skillMatch: 100, loadFit: 43 },
+            { name: 'Sara Iyer', id: 'E-09', skillMatch: 100, loadFit: 58 },
+        ],
+    },
+    {
+        id: 'ALLOC-006', taskId: 'AUTO-T-010', taskTitle: 'Select and send royalty-free background music track',
+        assignee: { name: 'Sara Iyer', role: 'Systems Architect', id: 'E-09' },
+        skillMatch: 100, loadFit: 65, confidence: 89,
+        reasoning: [
+            'Skill match: 100% (documentation, research)',
+            'Workload: 12h/week current load + 2h task = 14h vs 40h capacity (65% fit)',
+            'Historical completion rate: 95% across task types',
+            'Highest combined score — quick 2h task with immediate deadline impact',
+        ],
+        alternatives: [
+            { name: 'Neha Joshi', id: 'E-07', skillMatch: 100, loadFit: 55 },
+            { name: 'Deepika Singh', id: 'E-11', skillMatch: 100, loadFit: 50 },
         ],
     },
 ];
 
 export const ACCEPTED_ALLOCATIONS = [
-    { id: 'A-2841', taskId: 'T-441', assignee: 'Sarah Chen', confidence: 91, status: 'active', acceptedDate: '2026-02-19' },
-    { id: 'A-2839', taskId: 'T-435', assignee: 'Priya Nair', confidence: 65, status: 'active', acceptedDate: '2026-02-18', overridden: true },
-    { id: 'A-2838', taskId: 'T-432', assignee: 'James Okoye', confidence: 88, status: 'done', acceptedDate: '2026-02-17' },
-    { id: 'A-2835', taskId: 'T-419', assignee: 'Sarah Chen', confidence: 92, status: 'done', acceptedDate: '2026-02-15' },
-    { id: 'A-2833', taskId: 'T-415', assignee: 'Marcus Webb', confidence: 71, status: 'blocked', acceptedDate: '2026-02-14' },
+    { id: 'ALLOC-011', taskId: 'AUTO-T-002', assignee: 'Aadity', confidence: 88, status: 'active', acceptedDate: '2026-03-08' },
+    { id: 'ALLOC-012', taskId: 'AUTO-T-011', assignee: 'Aadity', confidence: 88, status: 'active', acceptedDate: '2026-03-08' },
+    { id: 'ALLOC-013', taskId: 'AUTO-T-012', assignee: 'Mayank', confidence: 91, status: 'done', acceptedDate: '2026-03-08' },
+    { id: 'ALLOC-014', taskId: 'AUTO-T-004', assignee: 'Aadity', confidence: 88, status: 'active', acceptedDate: '2026-03-08' },
+    { id: 'ALLOC-015', taskId: 'AUTO-T-009', assignee: 'Aadity', confidence: 88, status: 'active', acceptedDate: '2026-03-08' },
 ];
 
 // ─── Learning ─────────────────────────────────────────────────────────────────
@@ -350,6 +375,85 @@ export interface MeetingDetail {
 }
 
 export const MEETING_DETAILS: Record<string, MeetingDetail> = {
+    'M-202': {
+        id: 'M-202',
+        duration: 8,
+        overview: 'ScrumFlow.ai demo video planning meeting — Mayank, Aadity, aur Harsh ne milke Friday deadline ke liye ek comprehensive action plan banaya. Meeting mein 10 decisions liye gaye, 12 tasks assign hue, aur 5 critical risks identify kiye gaye. Video structure, asset deadlines, aur article cleanup — sab kuch finalize hua. Decision density: 1.34/min — highest for the ScrumFlow.ai project.',
+        keyPoints: [
+            'Demo video maximum 3 minutes hoga — Friday submission deadline pehle ready hona chahiye.',
+            'Video structure decided: ScrumFlow logo + tagline anim (5s) → team intro → website demo → architecture overview.',
+            'Screen recording 1080p @ 30fps hogi — sequence: calendar → transcription → allocation → learning dashboard.',
+            'Architecture diagram Eraser.io pe banegi — 3x EC2, RDS, API layer — video mein static rahega, animation nahi.',
+            'Complex After Effects animations out of scope — Harsh ki limitation accepted by team.',
+            'Wednesday 5 PM pe internal review checkpoint set hua.',
+            'Article cleanup deprioritized to tomorrow morning — aaj screen recording priority hai.',
+        ],
+        decisions: [
+            'Video duration cap: 3 minutes maximum.',
+            'Architecture diagram will remain static — no animation in video.',
+            'Complex After Effects animations are out of scope for this video.',
+            'Screen recording specs locked: 1080p at 30fps.',
+            'Wednesday 5 PM internal review checkpoint confirmed.',
+            'Article cleanup moved to tomorrow morning — not today.',
+            'Blue theme for video background and motion graphics.',
+            'Tagline: "Meetings se Tasks tak — Automatically" finalized.',
+            'Recording sequence: calendar → transcription → allocation → learning dashboard.',
+            'All assets to be shared via Telegram channel.',
+        ],
+        actionItems: [
+            { owner: 'Mayank', task: 'Design ScrumFlow.ai logo + tagline and send to Harsh via Telegram', due: '11:00 AM today' },
+            { owner: 'Mayank', task: 'Share YouTube reference video links on Telegram', due: '11:30 AM today' },
+            { owner: 'Aadity', task: 'Select and confirm motion background (blue theme)', due: '12:00 PM today' },
+            { owner: 'Aadity', task: 'Update website mock data with realistic entries', due: '12:30 PM today' },
+            { owner: 'Aadity', task: 'Record 1080p @ 30fps screen walkthrough of website', due: '1:00 PM today' },
+            { owner: 'Mayank', task: 'Create Eraser.io architecture flowchart (EC2 × 3, RDS, API layer)', due: '1:30 PM today' },
+            { owner: 'Mayank', task: 'Select and send royalty-free background music (tech/ambient, blue)', due: '2:00 PM today' },
+            { owner: 'Harsh', task: 'Deliver first draft of demo video', due: '6:00 PM today' },
+            { owner: 'Mayank', task: 'Perform first pass of the article', due: 'Tonight' },
+            { owner: 'Aadity', task: 'Article content cleanup and segregation', due: 'Tomorrow morning' },
+        ],
+        nextSteps: [
+            'All assets must reach Harsh before their respective deadlines — delays directly block video editing.',
+            'Internal review on Wednesday 5 PM — all three members to attend.',
+            'Final video submission by Friday deadline.',
+            'Article to be completed by Mayank tonight and cleaned up by Aadity tomorrow.',
+        ],
+        speakers: [
+            { id: 'SPEAKER_00', name: 'Mayank Sharma', color: '#6366f1', pct: 48, turns: 22, interruptions: 2 },
+            { id: 'SPEAKER_01', name: 'Aadity', color: '#06b6d4', pct: 34, turns: 18, interruptions: 3 },
+            { id: 'SPEAKER_02', name: 'Harsh', color: '#f59e0b', pct: 18, turns: 10, interruptions: 1 },
+        ],
+        timeline: [
+            { speaker: 'SPEAKER_00', color: '#6366f1', start: 0, end: 2 },
+            { speaker: 'SPEAKER_01', color: '#06b6d4', start: 2, end: 3 },
+            { speaker: 'SPEAKER_02', color: '#f59e0b', start: 3, end: 4 },
+            { speaker: 'SPEAKER_00', color: '#6366f1', start: 4, end: 5 },
+            { speaker: 'SPEAKER_01', color: '#06b6d4', start: 5, end: 6 },
+            { speaker: 'SPEAKER_00', color: '#6366f1', start: 6, end: 7 },
+            { speaker: 'SPEAKER_02', color: '#f59e0b', start: 7, end: 8 },
+        ],
+        silenceIntervals: [
+            { start: 1, end: 2 }, { start: 4, end: 5 },
+        ],
+        transcript: [
+            { speakerId: 'SPEAKER_00', speakerName: 'Mayank Sharma', color: '#6366f1', timestamp: '00:12', text: "Okay guys, let's start. Aaj hum demo video ke baare mein baat karenge. Friday deadline hai toh hume aaj hi sab plan karna padega." },
+            { speakerId: 'SPEAKER_01', speakerName: 'Aadity', color: '#06b6d4', timestamp: '00:38', text: "Haan, main ready hoon. Mujhe pata hai mera kya kya karna hai — mock data, screen recording. Batao kab tak chahiye." },
+            { speakerId: 'SPEAKER_02', speakerName: 'Harsh', color: '#f59e0b', timestamp: '01:05', text: "Bhai, mujhe sabse pehle logo chahiye aur ek motion background — without that main editing shuru nahi kar sakta. Yeh meri hard dependency hai." },
+            { speakerId: 'SPEAKER_00', speakerName: 'Mayank Sharma', color: '#6366f1', timestamp: '01:30', text: "Samajh gaya. Logo main 11 baje tak de dunga. Tagline bhi finalize ho gayi hai — 'Meetings se Tasks tak — Automatically'. Yeh use karenge." },
+            { speakerId: 'SPEAKER_01', speakerName: 'Aadity', color: '#06b6d4', timestamp: '02:00', text: "Motion background main dekh leta hoon — 12 baje tak confirm kar dunga Telegram pe. Blue theme rakhna hai na?" },
+            { speakerId: 'SPEAKER_00', speakerName: 'Mayank Sharma', color: '#6366f1', timestamp: '02:18', text: "Haan, blue theme hi rakhna hai puri video mein. Aadity, screen recording bhi aaj karni hai — 1080p, 30fps. Sequence important hai: calendar pehle, phir transcription, phir allocation engine, last mein learning dashboard." },
+            { speakerId: 'SPEAKER_02', speakerName: 'Harsh', color: '#f59e0b', timestamp: '02:45', text: "Architecture diagram ka kya plan hai? Animation chahiye ya static?" },
+            { speakerId: 'SPEAKER_00', speakerName: 'Mayank Sharma', color: '#6366f1', timestamp: '03:00', text: "Static rakhte hain — Eraser.io pe banaunga. 3 EC2 machines, RDS, aur ScrumFlow API layer. AWS aur RDS logos dalunga. Animation ki zaroorat nahi." },
+            { speakerId: 'SPEAKER_01', speakerName: 'Aadity', color: '#06b6d4', timestamp: '04:10', text: "Bhai meri ek concern hai — aaj bohot kuch hai mujhe. Mock data, recording, aur agar article bhi karna pada toh overload ho jayega." },
+            { speakerId: 'SPEAKER_00', speakerName: 'Mayank Sharma', color: '#6366f1', timestamp: '04:35', text: "Article cleanup kal subah kar lena. Aaj main first pass kar dunga raat ko — tum sirf recording aur mock data pe focus karo. Yeh decision final hai." },
+            { speakerId: 'SPEAKER_02', speakerName: 'Harsh', color: '#f59e0b', timestamp: '05:00', text: "Complex After Effects animations nahi kar sakta mujhse — experience nahi hai. Toh woh out of scope hi rakhte hain." },
+            { speakerId: 'SPEAKER_00', speakerName: 'Mayank Sharma', color: '#6366f1', timestamp: '05:20', text: "Bilkul theek hai. Simple transitions aur logo animation hi use karenge — that's enough for a 3-minute video." },
+            { speakerId: 'SPEAKER_01', speakerName: 'Aadity', color: '#06b6d4', timestamp: '05:48', text: "Review kab hoga? Pehle check-in set karte hain taaki last-minute chaos na ho." },
+            { speakerId: 'SPEAKER_00', speakerName: 'Mayank Sharma', color: '#6366f1', timestamp: '06:05', text: "Wednesday 5 PM pe internal review karenge — Harsh draft share karega, hum feedback denge. Usse pehle sab assets ready hone chahiye." },
+            { speakerId: 'SPEAKER_02', speakerName: 'Harsh', color: '#f59e0b', timestamp: '07:30', text: "Background music bhi chahiye mujhe. Royalty-free, tech/ambient vibe — blue aesthetic ke saath match karna chahiye." },
+            { speakerId: 'SPEAKER_00', speakerName: 'Mayank Sharma', color: '#6366f1', timestamp: '07:50', text: "Main 2 baje tak bhej dunga music. YouTube reference links bhi 11:30 baje tak share kar dunga Telegram pe — taaki tujhe idea mil sake video style ka." },
+        ],
+    },
     'M-201': {
         id: 'M-201',
         duration: 58,

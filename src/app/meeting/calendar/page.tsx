@@ -31,9 +31,9 @@ const TIER_BG: Record<string, string> = {
 };
 
 export default function CalendarPage() {
-    const today = new Date(2026, 1, 20); // Feb 20, 2026
+    const today = new Date(2026, 2, 8); // March 8, 2026 — real project date
     const [year, setYear] = useState(2026);
-    const [month, setMonth] = useState(1); // Feb
+    const [month, setMonth] = useState(2); // March (0-indexed)
     const [view, setView] = useState<'month' | 'week'>('week');
     const [selectedMeeting, setSelectedMeeting] = useState<typeof UPCOMING_MEETINGS[0] | null>(null);
     const [filterProject, setFilterProject] = useState('all');
@@ -66,11 +66,11 @@ export default function CalendarPage() {
         return PROJECTS.find(p => p.id === projectId)?.color || '#3b82f6';
     }
 
-    // Week view: current week days
-    const weekStart = 18; // Feb 18 (Mon)
+    // Week view: Mar 8-14, 2026 (current week for the project)
+    const weekStart = 8; // March 8 (Mon)
     const weekDays = Array.from({ length: 7 }, (_, i) => weekStart + i);
 
-    const hours = ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'];
+    const hours = ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00'];
 
     return (
         <>
@@ -113,7 +113,7 @@ export default function CalendarPage() {
                                 <button className={`tab ${view === 'week' ? 'active' : ''}`} onClick={() => setView('week')}>Week</button>
                                 <button className={`tab ${view === 'month' ? 'active' : ''}`} onClick={() => setView('month')}>Month</button>
                             </div>
-                            <button className="btn btn-secondary btn-sm" onClick={() => { setYear(2026); setMonth(1); }}>
+                            <button className="btn btn-secondary btn-sm" onClick={() => { setYear(2026); setMonth(2); }}>
                                 Today
                             </button>
                         </div>
@@ -135,8 +135,8 @@ export default function CalendarPage() {
                             <div style={{ display: 'grid', gridTemplateColumns: '60px repeat(7, 1fr)', borderBottom: '1px solid var(--border)' }}>
                                 <div style={{ padding: '10px 8px', borderRight: '1px solid var(--border)' }} />
                                 {weekDays.map((day, i) => {
-                                    const dateStr = `2026-02-${String(day).padStart(2, '0')}`;
-                                    const isToday = day === 20;
+                                    const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                                    const isToday = day === 8 && month === 2 && year === 2026;
                                     return (
                                         <div key={day} style={{
                                             padding: '10px 8px',
@@ -168,7 +168,7 @@ export default function CalendarPage() {
                                         paddingTop: 6,
                                     }}>{hour}</div>
                                     {weekDays.map((day, di) => {
-                                        const dateStr = `2026-02-${String(day).padStart(2, '0')}`;
+                                        const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
                                         const meetings = filteredMeetings.filter(m => m.date === dateStr && m.time === hour);
                                         return (
                                             <div key={day} style={{ borderRight: di < 6 ? '1px solid rgba(30,45,74,0.3)' : 'none', padding: '4px' }}>
@@ -216,7 +216,7 @@ export default function CalendarPage() {
                                 ))}
                                 {Array.from({ length: daysInMonth }, (_, i) => i + 1).map(day => {
                                     const meetings = getMeetingsForDay(day);
-                                    const isToday = day === 20 && month === 1 && year === 2026;
+                                    const isToday = day === 8 && month === 2 && year === 2026;
                                     return (
                                         <div key={day} className={`calendar-day ${isToday ? 'today' : ''}`}>
                                             <div className="calendar-day-num">{day}</div>

@@ -623,7 +623,7 @@ export default function MeetingImportancePage() {
                                                         fontWeight: 600, fontSize: 13, color: isSelected ? '#60a5fa' : 'var(--text-primary)',
                                                         textAlign: 'left', padding: 0,
                                                         transition: 'color 0.15s',
-                                                        textDecoration: isSelected ? 'none' : 'underline',
+                                                        textDecorationLine: isSelected ? 'none' : 'underline',
                                                         textDecorationColor: 'rgba(139,157,195,0.3)',
                                                     }}
                                                     onClick={() => setSelectedMeeting(isSelected ? null : m.id)}

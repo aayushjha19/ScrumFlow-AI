@@ -1,9 +1,23 @@
 [
-    {
-        "id": "49615ac3-2125-4ea3-aa1d-7557cc22627e",
-        "name": "SKIT",
-        "email": "hod@skit.ac.in",
-        "password_hash": "4e97775af1f14f60ed79ac7684bf6ec34104687b62e1514d70cf7a9e34ef41f6f0144108babcb4fc922d6007d2cecc1c99ff58c623fa85ccf8ecb6eea5485cc8:967c096dc8861989178ec0421f0062a7",
-        "created_at": "2026-03-03T10:06:15.887Z"
-    }
+  {
+    "id": "49615ac3-2125-4ea3-aa1d-7557cc22627e",
+    "name": "SKIT",
+    "email": "hod@skit.ac.in",
+    "password_hash": "4e97775af1f14f60ed79ac7684bf6ec34104687b62e1514d70cf7a9e34ef41f6f0144108babcb4fc922d6007d2cecc1c99ff58c623fa85ccf8ecb6eea5485cc8:967c096dc8861989178ec0421f0062a7",
+    "created_at": "2026-03-03T10:06:15.887Z"
+  },
+  {
+    "id": "16cc0629-11bb-45d4-aad1-3614bb32c02c",
+    "name": "tcs",
+    "email": "tcs@admin.com",
+    "password_hash": "761420f44a3ec2d64de317f2b393373ee3abad9971a1199ad23ac7123a571a8cd20da69eea6cd5f713e636469aeb5f3896d981655b4e53067f4aaf3765329051:061cb3e4529c4a09cafe2dc6190ed3bc",
+    "created_at": "2026-03-05T04:09:06.310Z"
+  },
+  {
+    "id": "4cac1518-ce6b-4611-ab68-f3ba42ae1d2b",
+    "name": "Scrumflow",
+    "email": "scrumflow@admin.com",
+    "password_hash": "cc4b30e4eb352b1eec962b7fd94403b1293cc1d513464308824eabbd6775f6cc9053f5c28e0cdf95ee5df502baf568dad6299cb0952f578ecff8a329730d2e36:190c242b81fcd73c0900871e2352ade5",
+    "created_at": "2026-03-08T11:52:08.376Z"
+  }
 ]

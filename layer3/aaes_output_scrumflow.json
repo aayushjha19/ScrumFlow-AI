@@ -1,0 +1,1396 @@
+{
+  "schema_version": "1.0",
+  "meeting_metadata": {
+    "duration_seconds": 448.7,
+    "duration_minutes": 7.48,
+    "decision_count": 10,
+    "task_creation_count": 15,
+    "decision_density": 1.337
+  },
+  "speaker_map": {
+    "SPEAKER_00": "Mayank",
+    "SPEAKER_01": "Aadity",
+    "SPEAKER_02": "Harsh"
+  },
+  "risk_quantification": {
+    "risk_counts": {
+      "dependency_risk": 4,
+      "timeline_pressure": 5,
+      "resource_constraint": 3,
+      "technical_blocker": 3,
+      "missing_ownership": 1,
+      "ambiguity": 2
+    },
+    "total_risk_signals": 18,
+    "by_severity": {
+      "high": 5,
+      "medium": 10,
+      "low": 3
+    }
+  },
+  "tasks": [
+    {
+      "task_id": "AUTO-T-001",
+      "title": "Deliver first draft of video",
+      "source_type": "commitment",
+      "source_utterance_index": 4,
+      "owner_speaker_id": "SPEAKER_02",
+      "owner_name": null,
+      "deadline_text": "today 6 PM",
+      "estimated_hours": 20,
+      "complexity_score": 8,
+      "skill_tags": [
+        "documentation"
+      ],
+      "dependency_flags": [
+        "Screen recordings must be ready",
+        "Architecture diagrams must be ready",
+        "Logo and tagline must be ready",
+        "Motion background must be selected",
+        "Royalty-free music track must be selected",
+        "YouTube reference links must be shared"
+      ],
+      "risk_tags": [
+        "dependency_risk",
+        "timeline_pressure",
+        "resource_constraint"
+      ],
+      "notes": "Main video editing and integration work."
+    },
+    {
+      "task_id": "AUTO-T-002",
+      "title": "Send motion background options to SPEAKER_01",
+      "source_type": "commitment",
+      "source_utterance_index": 6,
+      "owner_speaker_id": "SPEAKER_02",
+      "owner_name": null,
+      "deadline_text": null,
+      "estimated_hours": 1,
+      "complexity_score": 1,
+      "skill_tags": [],
+      "dependency_flags": [],
+      "risk_tags": [],
+      "notes": "Pre-requisite for SPEAKER_01 to select background."
+    },
+    {
+      "task_id": "AUTO-T-003",
+      "title": "Select and confirm motion background",
+      "source_type": "commitment",
+      "source_utterance_index": 8,
+      "owner_speaker_id": "SPEAKER_01",
+      "owner_name": null,
+      "deadline_text": "12 noon",
+      "estimated_hours": 1,
+      "complexity_score": 3,
+      "skill_tags": [],
+      "dependency_flags": [
+        "Motion background options must be sent by SPEAKER_02"
+      ],
+      "risk_tags": [
+        "timeline_pressure"
+      ],
+      "notes": "Critical for video editing."
+    },
+    {
+      "task_id": "AUTO-T-004",
+      "title": "Send full meeting transcription to SPEAKER_02",
+      "source_type": "commitment",
+      "source_utterance_index": 9,
+      "owner_speaker_id": "SPEAKER_00",
+      "owner_name": null,
+      "deadline_text": null,
+      "estimated_hours": 1,
+      "complexity_score": 1,
+      "skill_tags": [],
+      "dependency_flags": [],
+      "risk_tags": [],
+      "notes": null
+    },
+    {
+      "task_id": "AUTO-T-005",
+      "title": "Replace website's mock data with realistic entries (today's date, actual topics, meeting calendar entry)",
+      "source_type": "commitment",
+      "source_utterance_index": 14,
+      "owner_speaker_id": "SPEAKER_01",
+      "owner_name": null,
+      "deadline_text": "12:30 PM",
+      "estimated_hours": 6,
+      "complexity_score": 2,
+      "skill_tags": [
+        "frontend",
+        "database-migration"
+      ],
+      "dependency_flags": [],
+      "risk_tags": [
+        "technical_blocker"
+      ],
+      "notes": "Critical for screen recording. Includes creating a calendar entry for today's meeting (from utterance 29)."
+    },
+    {
+      "task_id": "AUTO-T-006",
+      "title": "Record clean screen walkthrough of website (meeting page, allocation engine, learning section) at 1080p 30fps, highlighting features",
+      "source_type": "commitment",
+      "source_utterance_index": 12,
+      "owner_speaker_id": "SPEAKER_01",
+      "owner_name": null,
+      "deadline_text": "1 PM",
+      "estimated_hours": 8,
+      "complexity_score": 4,
+      "skill_tags": [
+        "documentation",
+        "frontend"
+      ],
+      "dependency_flags": [
+        "Website mock data must be replaced with realistic entries",
+        "Order of website sections to be highlighted must be fixed"
+      ],
+      "risk_tags": [
+        "dependency_risk",
+        "technical_blocker",
+        "timeline_pressure"
+      ],
+      "notes": "Merges commitment from utterance 6 and decision from utterance 44."
+    },
+    {
+      "task_id": "AUTO-T-007",
+      "title": "Design and finalize ScrumFlow.ai logo and tagline, send to SPEAKER_02",
+      "source_type": "commitment",
+      "source_utterance_index": 16,
+      "owner_speaker_id": "SPEAKER_00",
+      "owner_name": null,
+      "deadline_text": "11 AM",
+      "estimated_hours": 5,
+      "complexity_score": 2,
+      "skill_tags": [
+        "documentation"
+      ],
+      "dependency_flags": [],
+      "risk_tags": [
+        "technical_blocker",
+        "timeline_pressure",
+        "dependency_risk",
+        "ambiguity"
+      ],
+      "notes": "Critical for video intro animation. Related to decision from utterance 39."
+    },
+    {
+      "task_id": "AUTO-T-008",
+      "title": "Create static architecture flowchart (EC2, RDS, ScrumFlow API) on Eraser.io, send to SPEAKER_02",
+      "source_type": "commitment",
+      "source_utterance_index": 18,
+      "owner_speaker_id": "SPEAKER_00",
+      "owner_name": null,
+      "deadline_text": "1:30 PM",
+      "estimated_hours": 4,
+      "complexity_score": 2,
+      "skill_tags": [
+        "architecture",
+        "system-design",
+        "documentation"
+      ],
+      "dependency_flags": [],
+      "risk_tags": [
+        "dependency_risk"
+      ],
+      "notes": "Critical for video architecture overview. Related to decision from utterance 20."
+    },
+    {
+      "task_id": "AUTO-T-009",
+      "title": "Perform first pass of article cleanup",
+      "source_type": "commitment",
+      "source_utterance_index": 24,
+      "owner_speaker_id": "SPEAKER_00",
+      "owner_name": null,
+      "deadline_text": "tonight",
+      "estimated_hours": 4,
+      "complexity_score": 2,
+      "skill_tags": [
+        "documentation"
+      ],
+      "dependency_flags": [],
+      "risk_tags": [
+        "technical_blocker",
+        "timeline_pressure"
+      ],
+      "notes": null
+    },
+    {
+      "task_id": "AUTO-T-010",
+      "title": "Perform article cleanup (second pass)",
+      "source_type": "commitment",
+      "source_utterance_index": 25,
+      "owner_speaker_id": "SPEAKER_01",
+      "owner_name": null,
+      "deadline_text": "tomorrow morning",
+      "estimated_hours": 4,
+      "complexity_score": 3,
+      "skill_tags": [
+        "documentation"
+      ],
+      "dependency_flags": [
+        "First pass of article cleanup must be completed by SPEAKER_00"
+      ],
+      "risk_tags": [
+        "timeline_pressure"
+      ],
+      "notes": null
+    },
+    {
+      "task_id": "AUTO-T-011",
+      "title": "Select and send royalty-free, tech/ambient background music track to SPEAKER_02",
+      "source_type": "commitment",
+      "source_utterance_index": 27,
+      "owner_speaker_id": "SPEAKER_00",
+      "owner_name": null,
+      "deadline_text": "2 PM",
+      "estimated_hours": 2,
+      "complexity_score": 2,
+      "skill_tags": [],
+      "dependency_flags": [],
+      "risk_tags": [
+        "missing_ownership",
+        "timeline_pressure"
+      ],
+      "notes": "Critical for video audio editing. Related to decision from utterance 27."
+    },
+    {
+      "task_id": "AUTO-T-012",
+      "title": "Share YouTube reference links on Telegram",
+      "source_type": "commitment",
+      "source_utterance_index": 37,
+      "owner_speaker_id": "SPEAKER_00",
+      "owner_name": null,
+      "deadline_text": "11:30 AM",
+      "estimated_hours": 1,
+      "complexity_score": 2,
+      "skill_tags": [],
+      "dependency_flags": [],
+      "risk_tags": [
+        "dependency_risk"
+      ],
+      "notes": "Critical for SPEAKER_02 to understand visual style."
+    }
+  ],
+  "dependency_edges": [
+    {
+      "from_task_id": "AUTO-T-002",
+      "to_task_id": "AUTO-T-003",
+      "reason": "Motion background options must be sent before selection can occur."
+    },
+    {
+      "from_task_id": "AUTO-T-003",
+      "to_task_id": "AUTO-T-001",
+      "reason": "Motion background must be confirmed before video editing can integrate it."
+    },
+    {
+      "from_task_id": "AUTO-T-005",
+      "to_task_id": "AUTO-T-006",
+      "reason": "Website mock data must be realistic before screen recording can begin."
+    },
+    {
+      "from_task_id": "AUTO-T-006",
+      "to_task_id": "AUTO-T-001",
+      "reason": "Screen recordings must be ready for video editing."
+    },
+    {
+      "from_task_id": "AUTO-T-007",
+      "to_task_id": "AUTO-T-001",
+      "reason": "Logo and tagline must be ready for video intro animation."
+    },
+    {
+      "from_task_id": "AUTO-T-008",
+      "to_task_id": "AUTO-T-001",
+      "reason": "Architecture diagram must be ready for video editing."
+    },
+    {
+      "from_task_id": "AUTO-T-009",
+      "to_task_id": "AUTO-T-010",
+      "reason": "First pass of article cleanup must be completed before second pass."
+    },
+    {
+      "from_task_id": "AUTO-T-011",
+      "to_task_id": "AUTO-T-001",
+      "reason": "Background music track must be selected before audio editing can begin."
+    },
+    {
+      "from_task_id": "AUTO-T-012",
+      "to_task_id": "AUTO-T-001",
+      "reason": "YouTube reference links must be shared for visual style guidance."
+    }
+  ],
+  "allocation_suggestions": [
+    {
+      "task_id": "AUTO-T-001",
+      "task_title": "Deliver first draft of video",
+      "source_meeting_commitment": "Main video editing and integration work.",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "today 6 PM",
+      "suggested_assignee_id": "E-09",
+      "suggested_assignee_name": "Sara Iyer",
+      "suggested_assignee_role": "Systems Architect",
+      "skill_match_percentage": 100.0,
+      "load_fit_percentage": 20.0,
+      "confidence_score": 75.0,
+      "reasoning": [
+        "Skill match: 100% (1/1 required skills: documentation)",
+        "Workload: 12h/week current load + 20h task = 32h vs 40h capacity (20% fit)",
+        "Historical completion rate: 95% across Systems Architect task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-07",
+          "employee_name": "Neha Joshi",
+          "role": "Content Writer",
+          "skill_match": 100.0,
+          "load_fit": 10.0,
+          "confidence": 71.8
+        },
+        {
+          "employee_id": "E-11",
+          "employee_name": "Deepika Singh",
+          "role": "QA Engineer",
+          "skill_match": 100.0,
+          "load_fit": 5.0,
+          "confidence": 69.5
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-002",
+      "task_title": "Send motion background options to SPEAKER_01",
+      "source_meeting_commitment": "Pre-requisite for SPEAKER_01 to select background.",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": null,
+      "suggested_assignee_id": "E-03",
+      "suggested_assignee_name": "Harsh",
+      "suggested_assignee_role": "Video Editor",
+      "skill_match_percentage": 0.0,
+      "load_fit_percentage": 77.5,
+      "confidence_score": 40.2,
+      "reasoning": [
+        "Skill match: 0% (0/0 required skills: none)",
+        "Workload: 8h/week current load + 1h task = 9h vs 40h capacity (78% fit)",
+        "Historical completion rate: 85% across Video Editor task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-02",
+          "employee_name": "Aadity",
+          "role": "Frontend Engineer",
+          "skill_match": 0.0,
+          "load_fit": 72.5,
+          "confidence": 39.4
+        },
+        {
+          "employee_id": "E-09",
+          "employee_name": "Sara Iyer",
+          "role": "Systems Architect",
+          "skill_match": 0.0,
+          "load_fit": 67.5,
+          "confidence": 39.2
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-003",
+      "task_title": "Select and confirm motion background",
+      "source_meeting_commitment": "Critical for video editing.",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "12 noon",
+      "suggested_assignee_id": "E-03",
+      "suggested_assignee_name": "Harsh",
+      "suggested_assignee_role": "Video Editor",
+      "skill_match_percentage": 0.0,
+      "load_fit_percentage": 77.5,
+      "confidence_score": 40.2,
+      "reasoning": [
+        "Skill match: 0% (0/0 required skills: none)",
+        "Workload: 8h/week current load + 1h task = 9h vs 40h capacity (78% fit)",
+        "Historical completion rate: 85% across Video Editor task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-02",
+          "employee_name": "Aadity",
+          "role": "Frontend Engineer",
+          "skill_match": 0.0,
+          "load_fit": 72.5,
+          "confidence": 39.4
+        },
+        {
+          "employee_id": "E-09",
+          "employee_name": "Sara Iyer",
+          "role": "Systems Architect",
+          "skill_match": 0.0,
+          "load_fit": 67.5,
+          "confidence": 39.2
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-004",
+      "task_title": "Send full meeting transcription to SPEAKER_02",
+      "source_meeting_commitment": null,
+      "owner_suggested_by_transcript": null,
+      "deadline_text": null,
+      "suggested_assignee_id": "E-03",
+      "suggested_assignee_name": "Harsh",
+      "suggested_assignee_role": "Video Editor",
+      "skill_match_percentage": 0.0,
+      "load_fit_percentage": 77.5,
+      "confidence_score": 40.2,
+      "reasoning": [
+        "Skill match: 0% (0/0 required skills: none)",
+        "Workload: 8h/week current load + 1h task = 9h vs 40h capacity (78% fit)",
+        "Historical completion rate: 85% across Video Editor task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-02",
+          "employee_name": "Aadity",
+          "role": "Frontend Engineer",
+          "skill_match": 0.0,
+          "load_fit": 72.5,
+          "confidence": 39.4
+        },
+        {
+          "employee_id": "E-09",
+          "employee_name": "Sara Iyer",
+          "role": "Systems Architect",
+          "skill_match": 0.0,
+          "load_fit": 67.5,
+          "confidence": 39.2
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-005",
+      "task_title": "Replace website's mock data with realistic entries (today's date, actual topics, meeting calendar entry)",
+      "source_meeting_commitment": "Critical for screen recording. Includes creating a calendar entry for today's meeting (from utterance 29).",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "12:30 PM",
+      "suggested_assignee_id": "E-02",
+      "suggested_assignee_name": "Aadity",
+      "suggested_assignee_role": "Frontend Engineer",
+      "skill_match_percentage": 50.0,
+      "load_fit_percentage": 60.0,
+      "confidence_score": 60.6,
+      "reasoning": [
+        "Skill match: 50% (1/2 required skills: frontend)",
+        "Workload: 10h/week current load + 6h task = 16h vs 40h capacity (60% fit)",
+        "Historical completion rate: 88% across Frontend Engineer task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-08",
+          "employee_name": "Vikram Nair",
+          "role": "Frontend Engineer",
+          "skill_match": 50.0,
+          "load_fit": 5.0,
+          "confidence": 42.5
+        },
+        {
+          "employee_id": "E-03",
+          "employee_name": "Harsh",
+          "role": "Video Editor",
+          "skill_match": 0.0,
+          "load_fit": 65.0,
+          "confidence": 36.5
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-006",
+      "task_title": "Record clean screen walkthrough of website (meeting page, allocation engine, learning section) at 1080p 30fps, highlighting features",
+      "source_meeting_commitment": "Merges commitment from utterance 6 and decision from utterance 44.",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "1 PM",
+      "suggested_assignee_id": "E-02",
+      "suggested_assignee_name": "Aadity",
+      "suggested_assignee_role": "Frontend Engineer",
+      "skill_match_percentage": 50.0,
+      "load_fit_percentage": 55.0,
+      "confidence_score": 59.1,
+      "reasoning": [
+        "Skill match: 50% (1/2 required skills: frontend)",
+        "Workload: 10h/week current load + 8h task = 18h vs 40h capacity (55% fit)",
+        "Historical completion rate: 88% across Frontend Engineer task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-09",
+          "employee_name": "Sara Iyer",
+          "role": "Systems Architect",
+          "skill_match": 50.0,
+          "load_fit": 50.0,
+          "confidence": 59.0
+        },
+        {
+          "employee_id": "E-07",
+          "employee_name": "Neha Joshi",
+          "role": "Content Writer",
+          "skill_match": 50.0,
+          "load_fit": 40.0,
+          "confidence": 55.8
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-007",
+      "task_title": "Design and finalize ScrumFlow.ai logo and tagline, send to SPEAKER_02",
+      "source_meeting_commitment": "Critical for video intro animation. Related to decision from utterance 39.",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "11 AM",
+      "suggested_assignee_id": "E-09",
+      "suggested_assignee_name": "Sara Iyer",
+      "suggested_assignee_role": "Systems Architect",
+      "skill_match_percentage": 100.0,
+      "load_fit_percentage": 57.5,
+      "confidence_score": 86.2,
+      "reasoning": [
+        "Skill match: 100% (1/1 required skills: documentation)",
+        "Workload: 12h/week current load + 5h task = 17h vs 40h capacity (58% fit)",
+        "Historical completion rate: 95% across Systems Architect task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-07",
+          "employee_name": "Neha Joshi",
+          "role": "Content Writer",
+          "skill_match": 100.0,
+          "load_fit": 47.5,
+          "confidence": 83.0
+        },
+        {
+          "employee_id": "E-11",
+          "employee_name": "Deepika Singh",
+          "role": "QA Engineer",
+          "skill_match": 100.0,
+          "load_fit": 42.5,
+          "confidence": 80.8
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-008",
+      "task_title": "Create static architecture flowchart (EC2, RDS, ScrumFlow API) on Eraser.io, send to SPEAKER_02",
+      "source_meeting_commitment": "Critical for video architecture overview. Related to decision from utterance 20.",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "1:30 PM",
+      "suggested_assignee_id": "E-09",
+      "suggested_assignee_name": "Sara Iyer",
+      "suggested_assignee_role": "Systems Architect",
+      "skill_match_percentage": 100.0,
+      "load_fit_percentage": 60.0,
+      "confidence_score": 87.0,
+      "reasoning": [
+        "Skill match: 100% (3/3 required skills: architecture, system-design, documentation)",
+        "Workload: 12h/week current load + 4h task = 16h vs 40h capacity (60% fit)",
+        "Historical completion rate: 95% across Systems Architect task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-01",
+          "employee_name": "Mayank Sharma",
+          "role": "Project Lead",
+          "skill_match": 66.7,
+          "load_fit": 40.0,
+          "confidence": 63.5
+        },
+        {
+          "employee_id": "E-07",
+          "employee_name": "Neha Joshi",
+          "role": "Content Writer",
+          "skill_match": 33.3,
+          "load_fit": 50.0,
+          "confidence": 50.5
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-009",
+      "task_title": "Perform first pass of article cleanup",
+      "source_meeting_commitment": null,
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "tonight",
+      "suggested_assignee_id": "E-09",
+      "suggested_assignee_name": "Sara Iyer",
+      "suggested_assignee_role": "Systems Architect",
+      "skill_match_percentage": 100.0,
+      "load_fit_percentage": 60.0,
+      "confidence_score": 87.0,
+      "reasoning": [
+        "Skill match: 100% (1/1 required skills: documentation)",
+        "Workload: 12h/week current load + 4h task = 16h vs 40h capacity (60% fit)",
+        "Historical completion rate: 95% across Systems Architect task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-07",
+          "employee_name": "Neha Joshi",
+          "role": "Content Writer",
+          "skill_match": 100.0,
+          "load_fit": 50.0,
+          "confidence": 83.8
+        },
+        {
+          "employee_id": "E-11",
+          "employee_name": "Deepika Singh",
+          "role": "QA Engineer",
+          "skill_match": 100.0,
+          "load_fit": 45.0,
+          "confidence": 81.5
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-010",
+      "task_title": "Perform article cleanup (second pass)",
+      "source_meeting_commitment": null,
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "tomorrow morning",
+      "suggested_assignee_id": "E-09",
+      "suggested_assignee_name": "Sara Iyer",
+      "suggested_assignee_role": "Systems Architect",
+      "skill_match_percentage": 100.0,
+      "load_fit_percentage": 60.0,
+      "confidence_score": 87.0,
+      "reasoning": [
+        "Skill match: 100% (1/1 required skills: documentation)",
+        "Workload: 12h/week current load + 4h task = 16h vs 40h capacity (60% fit)",
+        "Historical completion rate: 95% across Systems Architect task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-07",
+          "employee_name": "Neha Joshi",
+          "role": "Content Writer",
+          "skill_match": 100.0,
+          "load_fit": 50.0,
+          "confidence": 83.8
+        },
+        {
+          "employee_id": "E-11",
+          "employee_name": "Deepika Singh",
+          "role": "QA Engineer",
+          "skill_match": 100.0,
+          "load_fit": 45.0,
+          "confidence": 81.5
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-011",
+      "task_title": "Select and send royalty-free, tech/ambient background music track to SPEAKER_02",
+      "source_meeting_commitment": "Critical for video audio editing. Related to decision from utterance 27.",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "2 PM",
+      "suggested_assignee_id": "E-03",
+      "suggested_assignee_name": "Harsh",
+      "suggested_assignee_role": "Video Editor",
+      "skill_match_percentage": 0.0,
+      "load_fit_percentage": 75.0,
+      "confidence_score": 39.5,
+      "reasoning": [
+        "Skill match: 0% (0/0 required skills: none)",
+        "Workload: 8h/week current load + 2h task = 10h vs 40h capacity (75% fit)",
+        "Historical completion rate: 85% across Video Editor task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-02",
+          "employee_name": "Aadity",
+          "role": "Frontend Engineer",
+          "skill_match": 0.0,
+          "load_fit": 70.0,
+          "confidence": 38.6
+        },
+        {
+          "employee_id": "E-09",
+          "employee_name": "Sara Iyer",
+          "role": "Systems Architect",
+          "skill_match": 0.0,
+          "load_fit": 65.0,
+          "confidence": 38.5
+        }
+      ]
+    },
+    {
+      "task_id": "AUTO-T-012",
+      "task_title": "Share YouTube reference links on Telegram",
+      "source_meeting_commitment": "Critical for SPEAKER_02 to understand visual style.",
+      "owner_suggested_by_transcript": null,
+      "deadline_text": "11:30 AM",
+      "suggested_assignee_id": "E-03",
+      "suggested_assignee_name": "Harsh",
+      "suggested_assignee_role": "Video Editor",
+      "skill_match_percentage": 0.0,
+      "load_fit_percentage": 77.5,
+      "confidence_score": 40.2,
+      "reasoning": [
+        "Skill match: 0% (0/0 required skills: none)",
+        "Workload: 8h/week current load + 1h task = 9h vs 40h capacity (78% fit)",
+        "Historical completion rate: 85% across Video Editor task types",
+        "Highest combined score among available team members"
+      ],
+      "alternative_suggestions": [
+        {
+          "employee_id": "E-02",
+          "employee_name": "Aadity",
+          "role": "Frontend Engineer",
+          "skill_match": 0.0,
+          "load_fit": 72.5,
+          "confidence": 39.4
+        },
+        {
+          "employee_id": "E-09",
+          "employee_name": "Sara Iyer",
+          "role": "Systems Architect",
+          "skill_match": 0.0,
+          "load_fit": 67.5,
+          "confidence": 39.2
+        }
+      ]
+    }
+  ],
+  "layer3_raw": {
+    "discourse": {
+      "topic_segments": [
+        {
+          "topic_label": "Meeting Introductions",
+          "start_utterance_index": 0,
+          "end_utterance_index": 2,
+          "confidence": 0.9
+        },
+        {
+          "topic_label": "Demo Video Agenda & Harsh's Bandwidth",
+          "start_utterance_index": 3,
+          "end_utterance_index": 4,
+          "confidence": 0.95
+        },
+        {
+          "topic_label": "Video Structure & Motion Background",
+          "start_utterance_index": 5,
+          "end_utterance_index": 8,
+          "confidence": 0.92
+        },
+        {
+          "topic_label": "Transcription Animated Captions",
+          "start_utterance_index": 9,
+          "end_utterance_index": 10,
+          "confidence": 0.9
+        },
+        {
+          "topic_label": "Website Walkthrough & Mock Data",
+          "start_utterance_index": 11,
+          "end_utterance_index": 14,
+          "confidence": 0.93
+        },
+        {
+          "topic_label": "ScrumFlow Logo Dependency",
+          "start_utterance_index": 15,
+          "end_utterance_index": 17,
+          "confidence": 0.94
+        },
+        {
+          "topic_label": "Architecture Diagram Details",
+          "start_utterance_index": 18,
+          "end_utterance_index": 21,
+          "confidence": 0.91
+        },
+        {
+          "topic_label": "Written Article Content Cleanup",
+          "start_utterance_index": 22,
+          "end_utterance_index": 25,
+          "confidence": 0.9
+        },
+        {
+          "topic_label": "Background Music Selection",
+          "start_utterance_index": 26,
+          "end_utterance_index": 28,
+          "confidence": 0.9
+        },
+        {
+          "topic_label": "Calendar Page Mock Data",
+          "start_utterance_index": 29,
+          "end_utterance_index": 30,
+          "confidence": 0.88
+        },
+        {
+          "topic_label": "Open Risks and Animation Scope",
+          "start_utterance_index": 31,
+          "end_utterance_index": 33,
+          "confidence": 0.92
+        },
+        {
+          "topic_label": "Internal Review Checkpoint",
+          "start_utterance_index": 34,
+          "end_utterance_index": 35,
+          "confidence": 0.9
+        },
+        {
+          "topic_label": "YouTube Reference Videos",
+          "start_utterance_index": 36,
+          "end_utterance_index": 37,
+          "confidence": 0.89
+        },
+        {
+          "topic_label": "ScrumFlow Tagline Finalization",
+          "start_utterance_index": 38,
+          "end_utterance_index": 40,
+          "confidence": 0.91
+        },
+        {
+          "topic_label": "Website Section Order for Recording",
+          "start_utterance_index": 41,
+          "end_utterance_index": 42,
+          "confidence": 0.9
+        },
+        {
+          "topic_label": "Screen Recording Specifications",
+          "start_utterance_index": 43,
+          "end_utterance_index": 45,
+          "confidence": 0.93
+        },
+        {
+          "topic_label": "Summary of Commitments",
+          "start_utterance_index": 46,
+          "end_utterance_index": 48,
+          "confidence": 0.95
+        },
+        {
+          "topic_label": "Meeting Wrap-up",
+          "start_utterance_index": 49,
+          "end_utterance_index": 51,
+          "confidence": 0.9
+        }
+      ],
+      "questions": [
+        {
+          "utterance_index": 3,
+          "speaker_id": "SPEAKER_00",
+          "question_type": "open_ended",
+          "question_text": "Harsh, tere paas abhi kitna bandwidth hai is kaam ke liye?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 9,
+          "speaker_id": "SPEAKER_00",
+          "question_type": "confirmation",
+          "question_text": "Harsh, kya yeh tere current editing setup mein ho sakta hai?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 11,
+          "speaker_id": "SPEAKER_00",
+          "question_type": "confirmation",
+          "question_text": "Aadity, kya tu aaj 1 PM tak website ka clean screen walkthrough record kar sakta hai?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 13,
+          "speaker_id": "SPEAKER_00",
+          "question_type": "confirmation",
+          "question_text": "Kya tu 12:30 PM tak mock data update kar sakta hai?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 15,
+          "speaker_id": "SPEAKER_02",
+          "question_type": "open_ended",
+          "question_text": "Kaun bana raha hai logo aur kab milega?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 19,
+          "speaker_id": "SPEAKER_01",
+          "question_type": "decision_seeking",
+          "question_text": "Architecture diagram animate karna chahiye ya static rakhna chahiye?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 22,
+          "speaker_id": "SPEAKER_00",
+          "question_type": "confirmation",
+          "question_text": "Aadity, kya tu un files se useful content segregate karne mein help kar sakta hai?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 26,
+          "speaker_id": "SPEAKER_02",
+          "question_type": "open_ended",
+          "question_text": "video mein background music kya rahega? Royalty-free, tech theme chahiye. Kisi ko toh confirm karna padega woh track.",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 34,
+          "speaker_id": "SPEAKER_01",
+          "question_type": "confirmation",
+          "question_text": "Friday deadline ke baare mein — ek internal review checkpoint Wednesday evening mein karna chahiye na?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 35,
+          "speaker_id": "SPEAKER_00",
+          "question_type": "open_ended",
+          "question_text": "Koi last minute questions hain?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 38,
+          "speaker_id": "SPEAKER_01",
+          "question_type": "clarification",
+          "question_text": "ScrumFlow.ai ka tagline kya hoga jo logo ke saath aayega? Kya yeh already finalize hai ya abhi decide karna hai?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 43,
+          "speaker_id": "SPEAKER_02",
+          "question_type": "clarification",
+          "question_text": "screen recording ka resolution kya hoga? 1080p ya 4K? Aur frame rate bhi batana — 30fps ya 60fps?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 44,
+          "speaker_id": "SPEAKER_00",
+          "question_type": "confirmation",
+          "question_text": "Aadity, confirm kar sakta hai ki yeh possible hai tere setup mein?",
+          "is_answered_in_transcript": true,
+          "confidence": 0.95
+        }
+      ]
+    },
+    "commitments": {
+      "decisions": [
+        {
+          "utterance_index": 5,
+          "speaker_id": "SPEAKER_00",
+          "decision_text": "Finalize the ScrumFlow.ai demo video structure: Logo with tagline animation, 5-second intro clip, website demo (transcription, analytics, allocation engine), and 60-second architecture overview.",
+          "decision_type": "scope",
+          "agreed_by": [
+            "SPEAKER_00",
+            "SPEAKER_01",
+            "SPEAKER_02"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 6,
+          "speaker_id": "SPEAKER_01",
+          "decision_text": "Adopt a blue theme for the video background to match the website aesthetic.",
+          "decision_type": "technical",
+          "agreed_by": [
+            "SPEAKER_01",
+            "SPEAKER_00",
+            "SPEAKER_02"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 10,
+          "speaker_id": "SPEAKER_02",
+          "decision_text": "Limit complex After Effects animations and exclude them from this version of the video.",
+          "decision_type": "scope",
+          "agreed_by": [
+            "SPEAKER_02",
+            "SPEAKER_00"
+          ],
+          "confidence": 0.98
+        },
+        {
+          "utterance_index": 20,
+          "speaker_id": "SPEAKER_00",
+          "decision_text": "The architecture diagram will be static in this video version, using a simple slide-in transition.",
+          "decision_type": "technical",
+          "agreed_by": [
+            "SPEAKER_00",
+            "SPEAKER_01",
+            "SPEAKER_02"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 24,
+          "speaker_id": "SPEAKER_00",
+          "decision_text": "Prioritize Aadity's tasks for today: mock data update and screen recording. Article cleanup will be moved to tomorrow morning.",
+          "decision_type": "prioritization",
+          "agreed_by": [
+            "SPEAKER_00",
+            "SPEAKER_01"
+          ],
+          "confidence": 0.96
+        },
+        {
+          "utterance_index": 27,
+          "speaker_id": "SPEAKER_00",
+          "decision_text": "Use a royalty-free, tech/ambient themed background music track that matches the blue aesthetic for the video.",
+          "decision_type": "technical",
+          "agreed_by": [
+            "SPEAKER_00",
+            "SPEAKER_02"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 35,
+          "speaker_id": "SPEAKER_00",
+          "decision_text": "Conduct an internal review of the video draft on Wednesday at 5 PM via the same call.",
+          "decision_type": "process",
+          "agreed_by": [
+            "SPEAKER_00",
+            "SPEAKER_01"
+          ],
+          "confidence": 0.97
+        },
+        {
+          "utterance_index": 39,
+          "speaker_id": "SPEAKER_00",
+          "decision_text": "Finalize the ScrumFlow.ai tagline today, to be delivered with the logo file.",
+          "decision_type": "technical",
+          "agreed_by": [
+            "SPEAKER_00",
+            "SPEAKER_01",
+            "SPEAKER_02"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 41,
+          "speaker_id": "SPEAKER_00",
+          "decision_text": "Fix the order of website sections to be highlighted in the video: meeting calendar, transcription view, allocation engine, and learning dashboard.",
+          "decision_type": "scope",
+          "agreed_by": [
+            "SPEAKER_00",
+            "SPEAKER_01"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 44,
+          "speaker_id": "SPEAKER_00",
+          "decision_text": "Conduct screen recording at 1080p resolution and 30 frames per second (fps).",
+          "decision_type": "technical",
+          "agreed_by": [
+            "SPEAKER_00",
+            "SPEAKER_02",
+            "SPEAKER_01"
+          ],
+          "confidence": 0.96
+        }
+      ],
+      "commitments": [
+        {
+          "utterance_index": 4,
+          "speaker_id": "SPEAKER_02",
+          "commitment_text": "SPEAKER_02 will take on the video editing work.",
+          "owner": "SPEAKER_02",
+          "deadline_mentioned": null,
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 4,
+          "speaker_id": "SPEAKER_02",
+          "commitment_text": "SPEAKER_02 will deliver the first draft by 6 PM today.",
+          "owner": "SPEAKER_02",
+          "deadline_mentioned": "today 6 PM",
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 6,
+          "speaker_id": "SPEAKER_01",
+          "commitment_text": "SPEAKER_01 will highlight each feature as it appears on screen during the website demo.",
+          "owner": "SPEAKER_01",
+          "deadline_mentioned": null,
+          "confidence": 0.85
+        },
+        {
+          "utterance_index": 6,
+          "speaker_id": "SPEAKER_02",
+          "commitment_text": "SPEAKER_02 will send motion background options from the Telegram group to SPEAKER_01.",
+          "owner": "SPEAKER_02",
+          "deadline_mentioned": null,
+          "confidence": 0.8
+        },
+        {
+          "utterance_index": 8,
+          "speaker_id": "SPEAKER_01",
+          "commitment_text": "SPEAKER_01 will select and confirm the motion background by 12 noon.",
+          "owner": "SPEAKER_01",
+          "deadline_mentioned": "12 noon",
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 9,
+          "speaker_id": "SPEAKER_00",
+          "commitment_text": "SPEAKER_00 will send the full meeting transcription to SPEAKER_02.",
+          "owner": "SPEAKER_00",
+          "deadline_mentioned": null,
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 14,
+          "speaker_id": "SPEAKER_01",
+          "commitment_text": "SPEAKER_01 will replace the website's mock data with realistic entries (today's date, actual topics) by 12:30 PM.",
+          "owner": "SPEAKER_01",
+          "deadline_mentioned": "12:30 PM",
+          "confidence": 0.98
+        },
+        {
+          "utterance_index": 12,
+          "speaker_id": "SPEAKER_01",
+          "commitment_text": "SPEAKER_01 will record a clean screen walkthrough of the website (including meeting page, allocation engine, and learning section) in 1080p 30fps by 1 PM.",
+          "owner": "SPEAKER_01",
+          "deadline_mentioned": "1 PM",
+          "confidence": 0.98
+        },
+        {
+          "utterance_index": 16,
+          "speaker_id": "SPEAKER_00",
+          "commitment_text": "SPEAKER_00 will design and finalize the ScrumFlow.ai logo and tagline, and send both to SPEAKER_02 via Telegram by 11 AM.",
+          "owner": "SPEAKER_00",
+          "deadline_mentioned": "11 AM",
+          "confidence": 0.98
+        },
+        {
+          "utterance_index": 18,
+          "speaker_id": "SPEAKER_00",
+          "commitment_text": "SPEAKER_00 will create a flowchart on Eraser.io (showing three EC2 machines, RDS, ScrumFlow API layer deployment with AWS and RDS logos) and send it to SPEAKER_02 by 1:30 PM.",
+          "owner": "SPEAKER_00",
+          "deadline_mentioned": "1:30 PM",
+          "confidence": 0.97
+        },
+        {
+          "utterance_index": 24,
+          "speaker_id": "SPEAKER_00",
+          "commitment_text": "SPEAKER_00 will do the first pass of the article tonight.",
+          "owner": "SPEAKER_00",
+          "deadline_mentioned": "tonight",
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 25,
+          "speaker_id": "SPEAKER_01",
+          "commitment_text": "SPEAKER_01 will do article cleanup tomorrow morning.",
+          "owner": "SPEAKER_01",
+          "deadline_mentioned": "tomorrow morning",
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 27,
+          "speaker_id": "SPEAKER_00",
+          "commitment_text": "SPEAKER_00 will select and send the royalty-free background music track to SPEAKER_02 by 2 PM.",
+          "owner": "SPEAKER_00",
+          "deadline_mentioned": "2 PM",
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 29,
+          "speaker_id": "SPEAKER_01",
+          "commitment_text": "SPEAKER_01 will create a calendar entry for today's meeting (with date and context) on the website's calendar page, adding it to the mock data.",
+          "owner": "SPEAKER_01",
+          "deadline_mentioned": null,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 37,
+          "speaker_id": "SPEAKER_00",
+          "commitment_text": "SPEAKER_00 will share YouTube reference links on Telegram by 11:30 AM.",
+          "owner": "SPEAKER_00",
+          "deadline_mentioned": "11:30 AM",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "risks": {
+      "risks": [
+        {
+          "utterance_index": 4,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "dependency_risk",
+          "risk_text": "Harsh requires screen recordings, website walkthrough clips, and architecture diagrams to start his work.",
+          "severity": "medium",
+          "mitigation_suggested": null,
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 7,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "timeline_pressure",
+          "risk_text": "Harsh warns that if Aadity doesn't confirm the motion background by 12 noon, editing will be delayed, jeopardizing the 6 PM draft delivery.",
+          "severity": "medium",
+          "mitigation_suggested": null,
+          "confidence": 0.85
+        },
+        {
+          "utterance_index": 10,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "resource_constraint",
+          "risk_text": "Harsh states he cannot do complex After Effects animations, limiting visual quality and requiring a simpler approach for streaming text.",
+          "severity": "medium",
+          "mitigation_suggested": null,
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 12,
+          "speaker_id": "SPEAKER_01",
+          "risk_type": "technical_blocker",
+          "risk_text": "The website's mock data is generic and needs to be updated to ensure a professional look in the video, blocking screen recording.",
+          "severity": "medium",
+          "mitigation_suggested": null,
+          "confidence": 0.92
+        },
+        {
+          "utterance_index": 15,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "technical_blocker",
+          "risk_text": "The ScrumFlow logo does not exist, which is a hard blocker for starting the intro animation. Ownership and delivery timeline are unclear.",
+          "severity": "high",
+          "mitigation_suggested": null,
+          "confidence": 0.95
+        },
+        {
+          "utterance_index": 17,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "timeline_pressure",
+          "risk_text": "Harsh emphasizes that if the logo is delivered after 12 noon, his editing start time will be pushed, putting the 6 PM draft delivery at risk.",
+          "severity": "high",
+          "mitigation_suggested": null,
+          "confidence": 0.96
+        },
+        {
+          "utterance_index": 19,
+          "speaker_id": "SPEAKER_01",
+          "risk_type": "timeline_pressure",
+          "risk_text": "Aadity suggests animating the architecture diagram but notes it would take too much time, indicating a time constraint.",
+          "severity": "low",
+          "mitigation_suggested": "Decision made to keep architecture diagram static to save time.",
+          "confidence": 0.8
+        },
+        {
+          "utterance_index": 22,
+          "speaker_id": "SPEAKER_00",
+          "risk_type": "technical_blocker",
+          "risk_text": "Raw data collected for the article contains a lot of garbage data that needs cleaning.",
+          "severity": "medium",
+          "mitigation_suggested": null,
+          "confidence": 0.88
+        },
+        {
+          "utterance_index": 23,
+          "speaker_id": "SPEAKER_01",
+          "risk_type": "resource_constraint",
+          "risk_text": "Aadity states that taking on article cleanup today, in addition to mock data update and screen recording, is a resource constraint and he might not complete everything by end of day.",
+          "severity": "medium",
+          "mitigation_suggested": "Article cleanup deferred to next morning; Mayank will do first pass tonight.",
+          "confidence": 0.93
+        },
+        {
+          "utterance_index": 26,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "missing_ownership",
+          "risk_text": "The background music track for the video has not been selected, and ownership for its confirmation is unclear. Harsh cannot start audio editing without it.",
+          "severity": "medium",
+          "mitigation_suggested": null,
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 28,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "timeline_pressure",
+          "risk_text": "Harsh states that if the music track is received after 3 PM, it will cause problems for the final render, which requires a minimum of 2 hours.",
+          "severity": "high",
+          "mitigation_suggested": null,
+          "confidence": 0.94
+        },
+        {
+          "utterance_index": 31,
+          "speaker_id": "SPEAKER_00",
+          "risk_type": "dependency_risk",
+          "risk_text": "Mayank explicitly identifies a high-severity risk: if he misses the 11 AM logo deadline, Harsh's editing will be blocked.",
+          "severity": "high",
+          "mitigation_suggested": null,
+          "confidence": 0.98
+        },
+        {
+          "utterance_index": 31,
+          "speaker_id": "SPEAKER_00",
+          "risk_type": "dependency_risk",
+          "risk_text": "Mayank explicitly identifies a high-severity risk: if Aadity's screen recording is not ready by 1 PM, Harsh cannot start the main video segment.",
+          "severity": "high",
+          "mitigation_suggested": null,
+          "confidence": 0.98
+        },
+        {
+          "utterance_index": 31,
+          "speaker_id": "SPEAKER_00",
+          "risk_type": "timeline_pressure",
+          "risk_text": "Mayank notes that article cleanup has been deferred to the next day, making the Friday submission tight, especially if revisions are needed.",
+          "severity": "medium",
+          "mitigation_suggested": null,
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 32,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "resource_constraint",
+          "risk_text": "Harsh reiterates that complex animations are not possible without After Effects, which will limit the video's visual quality.",
+          "severity": "medium",
+          "mitigation_suggested": "Scope for complex animations has been explicitly defined as out of scope for this version.",
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 36,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "dependency_risk",
+          "risk_text": "Harsh needs Mayank to share YouTube reference videos to understand the visual style before starting editing.",
+          "severity": "low",
+          "mitigation_suggested": null,
+          "confidence": 0.8
+        },
+        {
+          "utterance_index": 38,
+          "speaker_id": "SPEAKER_01",
+          "risk_type": "ambiguity",
+          "risk_text": "The ScrumFlow.ai tagline is not finalized, which is needed for the logo animation.",
+          "severity": "medium",
+          "mitigation_suggested": null,
+          "confidence": 0.9
+        },
+        {
+          "utterance_index": 43,
+          "speaker_id": "SPEAKER_02",
+          "risk_type": "ambiguity",
+          "risk_text": "Harsh asks for clarification on screen recording resolution (1080p/4K) and frame rate (30fps/60fps) for editing quality.",
+          "severity": "low",
+          "mitigation_suggested": "Resolution and frame rate (1080p, 30fps) were clarified.",
+          "confidence": 0.85
+        }
+      ],
+      "overall_meeting_risk_level": "high",
+      "risk_summary": "The meeting identifies a high level of risk, primarily driven by critical dependencies and tight timelines for the ScrumFlow.ai demo video. There are 5 high-severity risks, including the missing ScrumFlow logo and tagline, and potential delays in its delivery, which would block Harsh's editing and jeopardize the 6 PM draft delivery. Similar high risks exist if Aadity's screen recording or Mayank's music selection are delayed. Additionally, resource constraints on Aadity for article cleanup and Harsh's limitations with complex animations could impact the overall quality and timely completion. The deferral of article cleanup also adds pressure to the Friday submission deadline."
+    }
+  }
+}
