@@ -74,11 +74,11 @@ The problem isn't meetings. Teams need to talk, debate, and align. That's work, 
 
 This is **Verbal Debt**, the organizational equivalent of technical debt. Every undocumented decision, every verbally assigned task, every flagged risk that never became a tracked blocker accumulates silently across sprints. A single undocumented decision in sprint planning becomes three Slack threads, two misaligned engineers, one delayed release. Multiply that across every sprint and the cost becomes a structural drag on execution.
 
-The root cause isn't poor communication. Teams are communicating constantly. The root cause is the absence of **Persistent Organizational Memory**: a system that captures not just what was said, but what was *decided*, who *committed*, what *risks* were raised, and what needs to *happen next*.
+The root cause isn't poor communication. Teams are communicating constantly. The root cause is the absence of *Persistent Organizational Memory*- and without it, every meeting starts from scratch. Context is rebuilt from memory. Decisions are relitigated. Velocity bleeds out in the space between conversations.
 
 Most teams patch this with better note-taking. It helps, but it doesn't solve the underlying problem. Someone still has to manually convert conversation into structure. Manual conversion is slow, inconsistent, and unreliable.
 
-**What teams need is structure that closes the loop automatically.** Every decision documented. Every commitment owned. Every sprint building on the one before it.
+What teams need isn't better note-taking it's a system that captures structure automatically, at the moment the conversation happens. Every decision documented. Every commitment owned. Every sprint building on the one before it. That's not a productivity tip. That's an architectural requirement.
 
 That's the gap ScrumFlow.ai closes.
 
