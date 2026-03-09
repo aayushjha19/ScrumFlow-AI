@@ -345,7 +345,11 @@ Every decision documented. Every commitment tracked. Every meeting building on t
 
 ## Team
 
-- Aditya Kumar Singh 
-- Mayank Sharma
-- Aayush Jha
-- Harsh Kumar
+**MeetMinds AI**
+
+| Name | Email | GitHub |
+|---|---|---|
+| Aditya Kumar Singh | [adiaparmar.dev@gmail.com](mailto:adiaparmar.dev@gmail.com) | [github.com/Adiaparmar](https://github.com/Adiaparmar) |
+| Mayank Sharma | [shar.mayankx@gmail.com](mailto:shar.mayankx@gmail.com) | [github.com/Shar-mayank0](https://github.com/Shar-mayank0) |
+| Aayush Jha | [aayushjha1911@gmail.com](mailto:aayushjha1911@gmail.com) | [github.com/aayushjha19](https://github.com/aayushjha19) |
+| Harsh Kumar | [hkshorts24@gmail.com](mailto:hkshorts24@gmail.com) | [github.com/thecodeharsh](https://github.com/thecodeharsh) |
