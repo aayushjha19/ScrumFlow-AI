@@ -4,7 +4,7 @@
 
 ---
 
-![ScrumFlow.ai](images/banner.png)
+![ScrumFlow.ai](images/scrumflow_banner.jpg)
 
 *Meetings into Decisions. Decisions into Tasks. Automatically.*
 
@@ -52,7 +52,13 @@ A platform that processes sprint planning recordings through a multi-agent AI pi
 - **Tasks with dependencies:** generated from all of the above, ready for immediate execution
 - **Smart allocation suggestions:** matching tasks to team members by skill and availability
 
-The core strategy: **Multi-Agent Reasoning Architecture** where specialized agents each analyze one dimension of the conversation, then synthesize their outputs into actionable sprint artifacts.
+The core strategy combines three pillars:
+
+**Multi-Agent Reasoning Architecture:** Specialized agents each analyze one dimension of the conversation (topics, decisions, risks) and synthesize their outputs into structured, execution-ready sprint artifacts.
+
+**Persistent Organizational Memory:** Every meeting produces a structured record of what was decided, who committed, what risks were raised, and what needs to happen next. This is stored as queryable intelligence that compounds across sprints rather than expiring when the call ends.
+
+**Execution Feedback Loop:** Decisions flow into tickets, tickets into completed tasks, and completed tasks feed back into the next planning cycle. The system closes the loop automatically. Alignment doesn't just happen in the meeting; it drives execution after it.
 
 ---
 
@@ -100,18 +106,38 @@ The core insight: break meeting understanding into **specialized agents**, each 
 
 ![Architecture](images/architecture.png)
 
-| Layer | Technology | Role |
-|---|---|---|
-| Client | Web dashboard | Upload meetings, view insights |
-| Ingress | Amazon EC2 + API | Auth, meeting creation, upload handling |
-| Storage | Amazon S3 | Audio files and transcript artifacts |
-| ML Inference | Amazon SageMaker | Speech recognition + speaker diarization |
-| Queue | Amazon SQS | Asynchronous, decoupled processing |
-| Agent Intelligence | EC2 + LLMs | Extract structured knowledge from transcript |
-| Database | Amazon RDS | Store decisions, tasks, risks, commitments |
-| Development | Kiro (Agentic IDE) | Spec-driven development and scaffolding |
+### AWS Services Used
 
-**Why async?** SQS decoupling means upload spikes don't cascade into processing failures. Each pipeline stage retries independently on failure, so a transient error never triggers a full pipeline rerun.
+| Service | Justification |
+|---|---|
+| **Amazon EC2** | Hosts the API ingress layer and the agent intelligence layer. EC2 gives direct control over the Python runtime and dependency environment needed for the multi-agent pipeline. |
+| **Amazon S3** | Object storage for raw audio uploads and intermediate transcript artifacts. S3's event notifications also trigger downstream processing steps, keeping the ingestion path fully decoupled. |
+| **Amazon SQS** | Decouples audio upload from processing. A spike in meeting uploads queues work without cascading into pipeline failures; each stage retries independently on transient errors, making the pipeline fault-tolerant by design. |
+| **Amazon RDS (PostgreSQL)** | Relational storage for structured pipeline outputs: decisions, commitments, risks, tasks, and allocation suggestions. RDS handles the relational joins needed when the dashboard queries task-to-decision traceability. |
+| **Amazon EC2 (ML)** | Runs Whisper and Pyannote directly on EC2 for speech recognition and speaker diarization. Keeping inference on EC2 avoids cold start latency and simplifies the deployment stack at the current prototype scale. |
+| **Kiro (Agentic IDE)** | Spec-driven development tool used throughout the build. Kiro generated structured specs, scaffolded AWS service integration patterns, and kept design documents in sync with code changes via automated hooks. |
+
+### Resource Optimization Strategies
+
+The table below compares ScrumFlow.ai's current architecture against alternative deployment options (ap-south-1 region). The current EC2-only setup was chosen for prototype simplicity; the Hybrid SageMaker path is the planned production trajectory.
+
+| Architecture | Services Used | Est. Monthly Cost | Scalability | Pros | Cons |
+|---|---|---|---|---|---|
+| **EC2-Only (Current)** | EC2 (t3.large), EC2 (c6i.xlarge), S3, RDS, SQS, Pyannote API, Gemini API | $250-300 | Medium | Lowest complexity, predictable cost, no cold starts | Manual autoscaling setup, CPU transcription slower |
+| **Hybrid SageMaker** | EC2 (t3.large), SageMaker (ml.g5.xlarge), S3, RDS, SQS, Pyannote API, Gemini API | $150-200 | Very High | No idle GPU cost, elastic scaling, managed ML inference | Cold start latency, container orchestration required |
+| **Bedrock AI** | EC2 API server, AWS Bedrock, S3, RDS, SQS, Pyannote API | $120-180 | Extremely High | Fully managed AI inference, simplest architecture | Vendor lock-in, token cost at scale |
+| **Fully Managed (SageMaker + Bedrock)** | EC2 API server, SageMaker processing, Bedrock agents, S3, RDS, SQS | $180-250 | Extremely High | Near-zero infrastructure maintenance, auto-scaling | Highest complexity, cost scales with usage |
+
+
+**External AI API Costs**
+
+| API | Purpose | Estimated Cost |
+|---|---|---|
+| Pyannote API | Speaker diarization | ~$0.16 / hr audio |
+| Gemini 2.5 Flash | Alignment + agent reasoning | ~$0.35 / 1M tokens input |
+| OpenRouter Llama 70B | Fallback inference | ~$0 |
+
+At scale (200 meetings/month), EC2 costs grow proportionally while S3 and SQS remain near-flat. Moving to reserved EC2 instances and adopting Savings Plans would reduce compute costs by 30-40% at that volume.
 
 ---
 
@@ -121,6 +147,9 @@ The core insight: break meeting understanding into **specialized agents**, each 
 
 | Model | Role |
 |---|---|
+| **Oriserve/Whisper-Hindi2Hinglish-Apex** | Multilingual Speech to Text Transcription |
+| **Pyannote - Precision 2** | Speaker Diarization |
+| **Gemini 3 Flash** | Transcription and Diarization alignment |
 | **Gemini 2.5 Flash** | Primary reasoning model for all agents |
 | **Llama 3.3 70B** (via OpenRouter) | Automatic fallback if Gemini fails |
 
@@ -198,7 +227,7 @@ Kiro, Amazon's agentic IDE, was central to how ScrumFlow.ai went from concept to
 
 **Spec-Driven Development.** I described requirements in natural language covering the processing pipeline, multi-agent flow, and data models for decisions, commitments, risks, and tasks, and Kiro generated structured specification files (`requirements.md`, `design.md`, `tasks.md`) using EARS notation. Every component's purpose and acceptance criteria were explicit before any implementation began. The agents themselves originated as discrete spec entries, not prompts.
 
-**Pipeline Scaffolding.** The multi-stage pipeline involves multiple AWS services coordinated across asynchronous boundaries. Kiro scaffolded the foundational patterns: SQS message schemas, SageMaker endpoint invocation wrappers, RDS connection pooling, and the shared agent interface contract that lets Discourse, Commitment, and Risk agents run in parallel without coupling.
+**Pipeline Scaffolding.** The multi-stage pipeline involves multiple AWS services coordinated across asynchronous boundaries. Kiro scaffolded the foundational patterns: SQS message schemas, RDS connection pooling, and the shared agent interface contract that lets Discourse, Commitment, and Risk agents run in parallel without coupling.
 
 **Consistency via Hooks.** Kiro's automated hooks fired on file saves and code changes, keeping specs, design documents, and task lists in sync with the evolving codebase. When an agent's output schema changed, downstream consumers were validated automatically rather than drifting silently until runtime.
 
@@ -229,7 +258,7 @@ The workflow is three steps:
 ---
 
 ![Meeting Intelligence Overview](images/Screenshot%202026-03-08%20173438.png)
-*Meeting importance page with M-282 ScrumFlow.ai Demo Video Planning selected, showing key discussion points, decisions made, and the importance scoring formula*
+*Meeting importance page with ScrumFlow.ai Demo Video Planning selected, showing key discussion points, decisions made, and the importance scoring formula*
 
 ---
 
@@ -287,7 +316,7 @@ The frustration isn't the missed deadline. It's knowing the team did everything 
 
 **Single prompts don't scale to real conversations.** Early prototypes fed entire transcripts into one LLM prompt. It worked on clean, short recordings. On real meetings with interruptions, topic switches, and overlapping commitments, it produced inconsistent results. Splitting reasoning across specialized agents changed everything. When the Discourse Agent only thinks about topics, the Commitment Agent only thinks about ownership, and the Risk Agent only thinks about blockers, each one gets dramatically better at its specific job. Separation of concerns is good software architecture. It's also good reasoning architecture.
 
-**Infrastructure is harder than intelligence.** The most time-consuming challenges had nothing to do with prompts or models. They were about orchestration. Keeping SageMaker, S3, SQS, and RDS coordinated across an async multi-stage pipeline without losing data or creating silent failures is genuinely hard engineering. Building AI applications is less about what the model knows and more about whether the plumbing holds under pressure. Idempotency and observability are non-negotiable.
+**Infrastructure is harder than intelligence.** The most time-consuming challenges had nothing to do with prompts or models. They were about orchestration. Keeping EC2, S3, SQS, and RDS coordinated across an async multi-stage pipeline without losing data or creating silent failures is genuinely hard engineering. Building AI applications is less about what the model knows and more about whether the plumbing holds under pressure. Idempotency and observability are non-negotiable.
 
 **Asynchronous architecture is not optional.** The first version processed everything synchronously. It worked for one meeting and fell apart under load. Introducing SQS to decouple transcription from analysis wasn't an optimization, it was a correctness fix. Upload spikes now get absorbed by the queue; failed stages retry independently.
 
@@ -316,8 +345,7 @@ Every decision documented. Every commitment tracked. Every meeting building on t
 
 ## Team
 
-
-- Aditya Kumar Singh
+- Aditya Kumar Singh 
 - Mayank Sharma
 - Aayush Jha
 - Harsh Kumar
